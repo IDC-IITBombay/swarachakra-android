@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">स्वरचक्र कोंकणी (Swarachakra Konkani)</string>
+    <string name="language_name">konkani</string>
+
+    <string name="title">स्वरचक्र कोंकणी</string>
+
+    <string name="logger_map">muppetymapkonkani.dat</string>
+    <string name="logger_language">konkanni</string>
+
+
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- English Language specific fragments -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Konkani text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Konkani\"</string>
+    <string name="default_step_1">1)In the next screen, select \"Swarachakra Konkani\"</string>
+    <!-- Konkani -->
+    <!-- Welcome fragment -->
+    <string name="konkani_welcome_instruction">Welcome. If you are unable to see the following Konkani text then your device is not supported.</string>
+    <string name="konkani_welcome_title">तूमचो फोन हे वाक्य वेवस्थीत दाखयता?</string>
+    <!-- Enable Fragment -->
+    <string name="konkani_enable_instructions_head">स्वरचक्र वापरपा खातीर ते पयलीं  एनेबल आनी डीफॉल्ट करपाक जाय.</string>
+    <string name="konkani_enable_step_1">१) फुडलें स्क्रीनीचेर \"स्वरचक्र कोंकणी\" वेंचात.</string>
+    <string name="konkani_enable_step_2">२) मागीर \"ओके\" दामात. </string>
+    <string name="konkani_enable_step_3">३) निमाणें कडेन तुमच्या फोना वयलो "बॅक" बटन दामात.</string>
+    <!-- Default Fragment -->
+    <string name="konkani_default_instructions_head">"स्वरचक्र कोंकणी" कीबोर्ड एनेबल जाल्लो आसा. आतां ताका डीफॉल्ट करात.</string>
+    <string name="konkani_default_step_1">१) फुडलें स्क्रीनीचेर "स्वरचक्र कोंकणी" वेंचात.</string>
+    <!-- Button Text -->
+    <string name="konkani_welcome_button">हय, सारकें आसा</string>
+    <string name="konkani_enable_button">स्वरचक्र एनेबल करात.</string>
+    <string name="konkani_default_button">स्वरचक्र कीबोर्ड डीफॉल्ट करात.</string>
+    <!-- Congrats fragment -->
+    <string name="konkani_congrats_instruction">आतां स्वरचक्र वापरपा खातीर तयार आसा</string>
+    <string name="konkani_congrats_title"> देव बरें करूं.</string>
+    <string name="konkani_congrats_button">सेटिंग्ज</string>
+    <!-- Settings -->
+    <string name="konkani_menu_language">KOK</string>
+    <string name="konkani_settings_instruction">स्वरचक्र कीबोर्डाचो आकार</string>
+    <string name="konkani_settings_layout_big">ल्हान</string>
+    <string name="konkani_settings_layout_small">व्हडलो</string>
+    <string name="konkani_do_you_like">स्वरचक्र आवडलें?</string>
+    <string name="konkani_rate_us">गूगल प्ले स्टोराचेर तुमचो अभिप्राय सांगात</string>
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="title">ਸ੍ਵਰਚਕ੍ਰ ਪੰਜਾਬੀ </string>
+    <string name="app_name">ਸ੍ਵਰਚਕ੍ਰ ਪੰਜਾਬੀ (Swarachakra Punjabi)</string>
+    <string name="language_name">punjabi</string>
+
+    <!-- Logger Strings -->
+    <string name="logger_map">muppetymaptelugu.dat</string>
+    <string name="logger_language">teelugu</string>
+
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- Welcome fragment -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Punjabi text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Punjabi\"</string>
+    <string name="default_step_1">1) In the next screen, select \"Swarachakra Punjabi\"</string>
+
+    <!-- punjabi -->
+    <!-- Welcome fragment -->
+    <string name="punjabi_welcome_instruction">Welcome. If you are unable to see the following punjabi text then your device is not supported.</string>
+    <string name="punjabi_welcome_title">ਕੀ ਤੁਹਾਡਾ ਫੋਨ ਇਹ ਵਾਕ ਪੰਜਾਬੀ  ਵਿੱਚ ਠੀਕ  ਵਿਖਾ ਰਿਹਾ ਹੈ ?</string>
+    <!-- Enable Fragment -->
+    <string name="punjabi_enable_instructions_head">ਸ੍ਵਰਚਕ੍ਰ ਇਸਤੇਮਾਲ ਕਰਨ ਤੋ ਪਹਿਲਾ ਇਸ ਨੂੂੰ ੲੇਨੈਬਲ(enable) ਅਤੇ ਡੀਫੌਲ਼ਟ(default) ਬਣਾਓ</string>
+    <string name="punjabi_enable_step_1">੧ ) ਅਗਲੀ ਸਕ੍ਰੀਨ ਉੱਤੇ ਸ੍ਵਰਚਕ੍ਰ  "ਪੰਜਾਬੀ" ਚੁਣੌ</string>
+    <string name="punjabi_enable_step_2">੨ ) ਫਿਰ ਓਕੇ ਦਬਾਓ </string>
+    <string name="punjabi_enable_step_3">੩ )  ਅੰਤ ਵਿੱਚ ਅਾਪਣੇ ਫੋਨ ਦਾ ਬੈਕ(back) ਬਟਨ ਦਬਾਓ</string>
+    <!-- Default Fragment -->
+    <string name="punjabi_default_instructions_head">ਸ੍ਵਰਚਕ੍ਰ ਪੰਜਾਬੀ ਏਨੈਬਲ ਹੋ ਚੁੱਕਿਆ ਹੈ ।  ਹੁਣ ਇਸਨੂੰ ਡੀਫੌਲ਼ਟ ਬਣਾਓ । </string>
+    <string name="punjabi_default_step_1">੧ )  ਅਗਲੇ ਸਕੀ੍ਨ ਉੱਤੇ ਸ੍ਵਰਚਕ੍ਰ ਪੰਜਾਬੀ ਚੁਣੌ</string>
+    <!-- Button Text -->
+    <string name="punjabi_welcome_button">ਹਾਂ , ਠੀਕ ਹੈ</string>
+    <string name="punjabi_enable_button">ਸ੍ਵਰਚਕ੍ਰ ਏਨੈੇਬਲ(enable) ਕਰੋ</string>
+    <string name="punjabi_default_button">ਸ੍ਵਰਚਕ੍ਰ ਨੂੰ ਡੀਫੌਲਟ ਬਣਾਓ</string>
+    <!-- Congrats fragment -->
+    <string name="punjabi_congrats_instruction">ਸ੍ਵਰਚਕ੍ਰ ਇਸਤੇਮਾਲ ਲਈ ਤਿਆਰ ਹੈ ।</string>
+    <string name="punjabi_congrats_title"> ਧੰਨਵਾਦ</string>
+    <string name="punjabi_congrats_button">ਸੈਟਿੰਗਜ਼</string>
+    <!-- Settings -->
+    <string name="punjabi_menu_language">PUN</string>
+    <string name="punjabi_settings_instruction">ਸ੍ਵਰਚਕ੍ਰ ਕੀਬੋਰਡ ਦਾ ਸਰੂਪ</string>
+    <string name="punjabi_settings_layout_big">ਛੋਟਾ</string>
+    <string name="punjabi_settings_layout_small">ਵੱਡਾ</string>
+    <string name="punjabi_do_you_like">ਕੀ ਸ੍ਵਰਚਕ੍ਰ ਤੁਹਾਨੂੰ ਪਸੰਦ ਅਾਯਾ?</string>
+    <string name="punjabi_rate_us">ਸਾਨੂੰ ਗੂਗਲ ਪਲੇ ਸਟੋਰ ਉੱਤੇ ਰੇਟ(rate) ਕਰੋ ਅਤੇ ਤੁਹਾਡੀ ਰਾਏ ਭੇਜੋ (comment)</string>
+
+</resources>

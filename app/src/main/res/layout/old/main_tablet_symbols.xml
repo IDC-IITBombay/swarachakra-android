@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="6.65%p"
+    android:keyWidth="10.6%p">
+    
+    <Row>
+
+        <Key
+            android:codes="54"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="55" />
+
+        <Key android:codes="56" />
+
+        <Key android:codes="57" />
+
+        <Key android:codes="58" />
+
+        <Key android:codes="59" />
+        
+        <Key android:codes="46" />
+        
+        <Key android:codes="47" />
+
+        <Key
+            android:codes="@string/backspace"
+            android:isRepeatable="true"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="right"
+            android:keyHeight="13.3%p"
+            android:keyIcon="@drawable/delete" />
+    </Row>
+
+    <Row>
+
+        <Key
+            android:codes="60"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="61" />
+
+        <Key android:codes="62" />
+
+        <Key android:codes="63" />
+
+        <Key android:codes="64" />
+
+        <Key android:codes="65" />
+        
+        <Key android:codes="95" />
+        
+        <Key android:codes="96" />
+    </Row>
+
+    <Row>
+
+        <Key
+            android:codes="66"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="67" />
+
+        <Key android:codes="68" />
+
+        <Key android:codes="69" />
+
+        <Key android:codes="70" />
+
+        <Key android:codes="71" />
+        
+        <Key android:codes="97" />
+        
+        <Key android:codes="98" />
+
+        <Key
+            android:codes="72"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+
+        <Key
+            android:codes="73"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="74" />
+
+        <Key android:codes="75" />
+
+        <Key android:codes="76" />
+
+        <Key android:codes="77" />
+
+        <Key android:codes="78" />
+        
+        <Key android:codes="99" />
+        
+        <Key android:codes="100" />
+
+        <Key
+            android:codes="79"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+
+        <Key
+            android:codes="80"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="81" />
+
+        <Key android:codes="82" />
+
+        <Key android:codes="83" />
+
+        <Key android:codes="84" />
+
+        <Key android:codes="85" />
+        
+        <Key android:codes="101" />
+        
+        <Key android:codes="102" />
+
+        <Key
+            android:codes="86"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+
+        <Key
+            android:codes="@string/symbols"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="left"
+            android:keyHeight="13.3%p"
+            android:keyIcon="@drawable/shift" />
+
+        <Key android:codes="87" />
+
+        <Key android:codes="88" />
+
+        <Key android:codes="89" />
+
+        <Key android:codes="90" />
+
+        <Key android:codes="91" />
+        
+        <Key android:codes="92" />
+        
+        <Key android:codes="93" />
+
+        <Key
+            android:codes="94"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="right" />
+    </Row>
+
+
+    <Row android:keyHeight="6.65%p" >
+
+        <Key
+            android:codes="@string/english"
+            android:horizontalGap="12.6%p"
+            android:keyLabel="En" />
+
+        <Key
+            android:codes="@string/space"
+            android:keyWidth="53%p" />
+
+        <Key
+            android:codes="@string/enter"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="23.5%p" />
+    </Row>
+
+    <Row android:keyHeight="1.25%p" >
+    </Row>
+
+</Keyboard>
+

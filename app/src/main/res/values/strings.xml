@@ -1,0 +1,82 @@
+<resources>
+    <string name="konkani_title">स्वरचक्र कोंकणी</string>
+
+    <!-- Logger urls -->
+    <string name="logger_url_beta"></string>
+    <string name="logger_url_production"></string>
+    
+    <!-- Special characters -->
+    <string name="backspace">400</string>
+    <string name="symbols">401</string>
+    <string name="english">402</string>
+    <string name="space">403</string>
+    <string name="enter">404</string>
+    <string name="shift">405</string>
+    
+    <string name="tablet_layout_setting_key">use_small_layout</string>
+    <string name="tablet_layout_setting_title">Use small layout</string>
+    <string name="tablet_layout_setting_summary">Reduces the height of the keyboard and the key sizes</string>
+    <string name="first_run_tutorial">first_run_tutorial</string>
+    <string name="preview_your_settings">Preview</string>
+
+    <string name="menu_language">ENG</string>
+
+    <!-- hex: layout flags key names -->
+    <string name="layout">layout</string> <!-- default - 1 / hive - 2 / .. -->
+    <string name="layout_orientation">layout_orientation</string> <!-- portrait - 1/ landscape - 2 -->
+    <string name="layout_screensize">screensize</string> <!-- phone / tablet / .. -->
+    <string name="layout_scriptname">scriptname</string> <!-- devanagari / english /  -->
+    <string name="layout_layer">layer</string> <!-- default / symbols -->
+    <string name="layout_height">keyboardheight</string> <!-- 1 / 2 / 3 / 4 / 5 -->
+    <string name="layout_theme">theme</string> <!-- default / .. -->
+
+
+
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- Defaults -->
+    <!-- Welcome fragment -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Hindi text then your device is not supported.</string>
+    <string name="welcome_title">क्या आपका फोन यह वाक्य हिन्दी में ठीक से दिखा रहा है?</string>
+    <!-- Enable Fragment -->
+    <string name="enable_instructions_head">To start using swarachakra it needs to be enabled and made default.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Hindi\"</string>
+    <string name="enable_step_2">2) Then, click \"OK\" </string>
+    <string name="enable_step_3">3) Finally, press the \"Back\" button on your phone</string>
+    <!-- Default Fragment -->
+    <string name="default_instructions_head">Swarachakra keyboard has been successfully enabled. Now make it your default keyboard.</string>
+    <string name="default_step_1">1)In the next screen, select \"Swarachakra Hindi\"</string>
+    <!-- Button Text -->
+    <string name="welcome_button">Yes, its alright</string>
+    <string name="enable_button">Enable Swarachakra</string>
+    <string name="default_button">Make swarachakra your default</string>
+    <!-- Congrats fragment -->
+    <string name="congrats_instruction">Swarachakra is ready for use</string>
+    <string name="congrats_title">Thank you</string>
+    <string name="congrats_button">Settings</string>
+    <!-- Settings -->
+    <string name="settings_instruction">Swarachakra keyboard size</string>
+    <string name="settings_layout_big">BIG</string>
+    <string name="settings_layout_small">SMALL</string>
+    <!-- hex -->
+    <string name="settings_layout_hex">STAGGERED</string>
+
+    <string name="do_you_like">Liked Swarachakra?</string>
+    <string name="rate_us">Rate us on Google Play Store.</string>
+    <string name="fb_likeus">Like Swarachakra on facebook</string>
+    <string name="tapaatap_download">Download tapaatap typing game</string>
+    <string name="tryit">Try it</string>
+    <string name="title_activity_preview">Preview</string>
+    <string name="back">Back</string>
+
+    <string name="height1">shortest</string>
+    <!-- <string name="height2">D</string>
+     <string name="height3">C</string>
+     <string name="height4">B</string>-->
+    <string name="height5">tallest</string>
+    <string name="heightreco">recommended</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

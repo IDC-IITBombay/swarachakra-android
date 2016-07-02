@@ -1,0 +1,44 @@
+<resources>
+    <string name="title">স্বৰচক্ৰ অসমীয়া </string>
+    <string name="app_name">স্বৰচক্ৰ অসমীয়া (Swarachakra Asomiya)</string>
+    <string name="language_name">asomiya</string>
+
+    <!-- Logger Strings -->
+    <string name="logger_map">muppetymapasom.dat</string>
+    <string name="logger_language">assameeese</string>
+
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- English Language specific changes fragment -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Asomiya text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Asomiya\"</string>
+    <string name="default_step_1">1) In the next screen, select \"Swarachakra Asomiya\"</string>
+    <!-- Asomiya -->
+    <!-- Welcome fragment -->
+    <string name="asomiya_welcome_instruction">Welcome. If you are unable to see the following Asomiya text then your device is not supported.</string>
+    <string name="asomiya_welcome_title">এই বাক্য টো সঠিক কৈ চাব পাৰিছে নে ?</string>
+    <!-- Enable Fragment -->
+    <string name="asomiya_enable_instructions_head">স্বৰচক্ৰ ব্যৱহাৰ কৰিবলৈ প্ৰথমে এইটো এনাবেল কৰক ।</string>
+    <string name="asomiya_enable_step_1">১) অহা স্ক্ৰিন ত \"স্বৰচক্ৰ অসমীয়া\" চয়ন কৰি।</string>
+    <string name="asomiya_enable_step_2">২) \"OK\" ত ক্লিক কৰক। </string>
+    <string name="asomiya_enable_step_3">৩) শেষত আপনাৰ ফোনত ব্যাক বাটন টিপক।</string>
+    <!-- Default Fragment -->
+    <string name="asomiya_default_instructions_head">স্বৰচক্ৰ অসমীয়া কিবৰ্ড সফলভাৱে ইন্ষ্টল ঽল।</string>
+    <string name="asomiya_default_step_1">১) পাছৰ স্ক্ৰিনত \"স্বৰচক্ৰ ডিফল্ট বনাওক\" চয়ন কৰক ।</string>
+    <!-- Button Text -->
+    <string name="asomiya_welcome_button">হঁ, এইটু ঠিক ।</string> <!-- হঁ, এটু ঠিক -->
+    <string name="asomiya_enable_button">ইয়াৰ পাছত স্বৰচক্ৰ এনাবেল কৰক।</string>
+    <string name="asomiya_default_button">স্বৰচক্ৰ ডিফল্ট বনাওক।</string>
+    <!-- Congrats fragment -->
+    <string name="asomiya_congrats_instruction">স্বৰচক্ৰ ব্যৱহাৰৰ বাৱে তৈয়াৰ।</string>
+    <string name="asomiya_congrats_title">ধন্যবাদ।</string>
+    <string name="asomiya_congrats_button">চেটিংচ</string>
+    <!-- Settings -->
+    <string name="asomiya_menu_language">AS</string>
+    <string name="asomiya_settings_instruction">স্বৰচক্ৰ  কিবৰ্ডৰ আকাৰ।</string>
+    <string name="asomiya_settings_layout_big">ডাঙৰ</string>
+    <string name="asomiya_settings_layout_small">সৰু</string>
+    <string name="asomiya_do_you_like">স্বৰচক্ৰ ব্যৱহাৰ কৰি ভাল লাগিছে নে ?</string>
+    <string name="asomiya_rate_us">গূগল প্লেষ্টৰত ৰেট কৰি আপোনাৰ মতামত জনাব ।</string>
+
+</resources>

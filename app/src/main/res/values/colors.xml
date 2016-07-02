@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="normal">#00000000</color>
+   <color name="red">#FF0000</color>
+   <color name="pressed">#777777</color>
+   <color name="english_bg">#141414</color>
+   <color name="highlight">#b3756b</color>
+</resources>

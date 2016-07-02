@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ಸ್ವರಚಕ್ರ ಕನ್ನಡ (Swarachakra Kannada)</string>
+    <string name="language_name">kannada</string>
+
+    <string name="title">ಸ್ವರಚಕ್ರ ಕನ್ನಡ</string>
+
+    <string name="logger_map">muppetymapkan.dat</string>
+    <string name="logger_language">kannadaa</string>
+
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- Kannada -->
+    <!-- English Language specific changes fragment -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Kannada text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Kannada\"</string>
+    <string name="default_step_1">1) In the next screen, select \"Swarachakra Kannada\"</string>
+    <!-- Welcome fragment -->
+    <string name="kannada_welcome_instruction">Welcome. If you are unable to see the following Kannada text then your device is not supported.</string>
+    <string name="kannada_welcome_title">ಏನು, ಈ ವಾಕ್ಯ ಕನ್ನಡದಲ್ಲಿ ಸರಿಯಾಗಿ ತೋರುತ್ತದೆಯೋ?</string>
+    <!-- Enable Fragment -->
+    <string name="kannada_enable_instructions_head">ಸ್ವರಚಕ್ರ ಉಪಯೋಗಿಸುವ ಮೊದಲು ಇದನ್ನು \"ಎನೇಬಲ್ \" ಮತ್ತೆ \"ಡೀಫಾಲ್ಟ್\"  ಮಾಡಬೇಕು.</string>
+    <string name="kannada_enable_step_1">೧) ಇನ್ನು ಬರುವ ಸ್ಕ್ರೀನಿನಲ್ಲಿ \"ಸ್ವರಚಕ್ರ ಕನ್ನಡದಲ್ಲಿ\" ಆರಿಸಿ .</string>
+    <string name="kannada_enable_step_2">೨) ನಂತರ \"ಓಕೆ\" ದಬಾಯಿಸಿ. </string>
+    <string name="kannada_enable_step_3">೩) ಅಂತ್ಯದಲ್ಲಿ ನಿಮ್ಮ ಫೋನಿನ \"ಬಾಕ್ ಬಟನ್ \" ದಬಾಯಿಸಿ.</string>
+    <!-- Default Fragment -->
+    <string name="kannada_default_instructions_head">ಸ್ವರಚಕ್ರ \"ಕೀಬೋರ್ಡ್\" ಯಶಸ್ವಿಯಾಗಿ \"ಎನೇಬಲ್ \" ಆಗಿದೆ . ಈಗ ಅದನ್ನು ನಿಮ್ಮ  \"ಡೀಫಾಲ್ಟ್ ಕೀಬೋರ್ಡನ್ನಾಗಿ \" ಮಾಡಿ .</string>
+    <string name="kannada_default_step_1">೧) ಬರುವ ಸ್ಕ್ರೀನಿನಲ್ಲಿ ಸ್ವರಚಕ್ರ ಕನ್ನಡ ಆರಿಸಿ .</string>
+    <!-- Button Text -->
+    <string name="kannada_welcome_button">ಹೌದು, ಸರಿಯಾಗಿದೆ.</string>
+    <string name="kannada_enable_button">\"ಎನೇಬಲ್\" ಸ್ವರಚಕ್ರ </string>
+    <string name="kannada_default_button">ಸ್ವರಚಕ್ರ ವನ್ನು \"ಡೀಫಾಲ್ಟ್\" ಮಾಡಿ.</string>
+    <!-- Congrats fragment -->
+    <string name="kannada_congrats_instruction">ಸ್ವರಚಕ್ರ ಈಗ ಉಪಯೋಗಿಸಲು ತಯಾರಾಗಿದೆ.</string>
+    <string name="kannada_congrats_title">ಧನ್ಯಾವಾದ</string>
+    <string name="kannada_congrats_button">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+    <!-- Settings -->
+    <string name="kannada_menu_language">KAN</string>
+    <string name="kannada_settings_instruction">ಸ್ವರ ಚಕ್ರ ಕೀಬೋರ್ಡಿನ  ಆಕಾರ.</string>
+    <string name="kannada_settings_layout_big">ಚಿಕ್ಕದು</string>
+    <string name="kannada_settings_layout_small">ದೊಡ್ಡದು</string>
+    <string name="kannada_do_you_like">ಸ್ವರ ಚಕ್ರ ಇಷ್ಟ ಆಯಿತಾ?</string>
+    <string name="kannada_rate_us">ನಮ್ಮನ್ನು \"ಗೂಗಲ್ ಪ್ಲೇ ಸ್ಟೋರಲ್ಲಿ\"  \"ರೇಟ್\" ಮಾಡಿ ನಿಮ್ಮ ಅಭಿಪ್ರಾಯವನ್ನು ತಿಳಿಸಿ.</string>
+    
+</resources>

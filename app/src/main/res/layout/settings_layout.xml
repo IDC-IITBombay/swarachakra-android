@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+    android:id="@+id/settings_relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" /> 
+    
+    <RadioGroup
+        android:id="@+id/layoutRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instruction"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/hexRadioButton"
+            style="@style/settings_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/settings_layout_hex"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:visibility="visible" />
+
+        <RadioButton
+            android:id="@+id/bigRadioButton"
+            style="@style/settings_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/settings_layout_big" />
+        <RadioButton
+            android:id="@+id/smallRadioButton"
+            style="@style/settings_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:text="@string/settings_layout_small"></RadioButton>
+
+    </RadioGroup>
+    <!--<SeekBar
+        android:id="@+id/keyboardSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutRadioGroup"
+        android:max="4"
+        android:maxHeight="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />-->
+
+    <RelativeLayout
+        android:id="@+id/labels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/layoutRadioGroup"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLabel1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:gravity="bottom"
+            android:text="@string/height1" />
+
+        <!-- <TextView
+             android:id="@+id/tvLabel2"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_toRightOf="@id/tvLabel1"
+             android:paddingLeft="10dp"
+             android:paddingRight="10dp"
+             android:textSize="24sp"
+             android:gravity="bottom"
+             android:text="@string/height4" />
+
+         <TextView
+             android:id="@+id/tvLabel3"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_toRightOf="@id/tvLabel2"
+             android:layout_centerHorizontal="true"
+             android:paddingRight="10dp"
+             android:textSize="20sp"
+             android:gravity="bottom"
+             android:text="@string/height3" />
+
+         <TextView
+             android:id="@+id/tvLabel4"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:paddingRight="10dp"
+             android:layout_toRightOf="@id/tvLabel3"
+             android:gravity="bottom"
+             android:textSize="16sp"
+             android:text="@string/height2" />-->
+
+        <TextView
+            android:id="@+id/tvLabel5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:gravity="bottom"
+            android:text="@string/height5" />
+    </RelativeLayout>
+    
+    <!--<EditText android:id="@+id/preview_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/layoutRadioGroup"
+        android:hint="@string/preview_your_settings"/>-->
+    
+     <TextView
+        android:id="@+id/likeus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/labels"
+        android:text="@string/do_you_like" />
+	<Button
+    android:id="@+id/rateus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_below="@+id/likeus"
+    android:background="#383838"
+    android:textColor="#fff"
+    android:text="@string/rate_us" />
+    <Button
+        android:id="@+id/fb_likeus"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rateus"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/fblogo"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/fb_likeus_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rateus"
+        android:layout_toRightOf="@+id/fb_likeus"
+        android:layout_alignBottom="@id/fb_likeus"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom"
+        android:foregroundGravity="bottom"
+        android:text="@string/fb_likeus"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+    
+    <fragment android:id="@+id/settings_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutRadioGroup"
+        android:layout_above="@id/rateus"
+        android:name="iit.android.settings.UserSettings"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/settings_fragment"
+        android:layout_alignRight="@+id/settings_fragment"
+        android:layout_alignParentRight="true"
+        android:gravity="bottom|fill_vertical|end">
+
+        <TextView
+            android:id="@+id/showKBSize"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/shape_green_rect"
+            android:fadingEdge="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="137dp"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/tryit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button"
+            android:textAppearance="?android:attr/textAllCaps"
+            android:textColor="#fff"
+            android:text="@string/tryit"
+            android:layout_alignBottom="@+id/showKBSize"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+</ScrollView>

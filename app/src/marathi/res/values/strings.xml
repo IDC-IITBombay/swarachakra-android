@@ -1,0 +1,57 @@
+<resources>
+    <string name="title">स्वरचक्र मराठी</string>
+    <string name="app_name">स्वरचक्र मराठी (Swarachakra Marathi)</string>
+    <string name="language_name">marathi</string>
+
+    <!-- Logger Strings -->
+    <string name="logger_map">muppetymapmarathi.dat</string>
+    <string name="logger_language">marathi</string>
+
+
+    <!-- Marathi -->
+    <!-- English Language specific changes fragment -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Marathi text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Marathi\"</string>
+    <string name="default_step_1">1) In the next screen, select \"Swarachakra Marathi\"</string>
+    <!-- Welcome fragment -->
+    <string name="marathi_welcome_instruction">Welcome. If you are unable to see the following Marathi text then your device is not supported.</string>
+    <string name="marathi_welcome_title">आपला फोन हे वाक्य मराठीत व्यवस्थित दाखवत आहे काय?</string>
+    <!-- Enable Fragment -->
+    <string name="marathi_enable_instructions_head">स्वरचक्र वापरण्यास सुरवात करण्याआधी त्याला एनेबल व डीफॉल्ट बनवावे लागेल.</string>
+    <string name="marathi_enable_step_1">१) पुढील स्क्रीनवर \"स्वरचक्र मराठी\" निवडा</string>
+    <string name="marathi_enable_step_2">२) मग \"ओके\" दाबा </string>
+    <string name="marathi_enable_step_3">३) शेवटी आपल्या फोनवरील \"बॅक\" बटण दाबा</string>
+    <!-- Default Fragment -->
+    <string name="marathi_default_instructions_head">स्वरचक्र मराठी एनेबल झाला आहे. आता त्याला डीफॉल्ट बनवा.</string>
+    <string name="marathi_default_step_1">१) पुढील स्क्रीनवर स्वरचक्र मराठी निवडा</string>
+    <!-- Button Text -->
+    <string name="marathi_welcome_button">हो, ठीक आहे</string>
+    <string name="marathi_enable_button">स्वरचक्र एनेबल करा</string>
+    <string name="marathi_default_button">स्वरचक्रला डीफॉल्ट बनवा</string>
+    <!-- Congrats fragment -->
+    <string name="marathi_congrats_instruction">स्वरचक्र वापरासाठी सज्ज आहे</string>
+    <string name="marathi_congrats_title">धन्यवाद</string>
+    <string name="marathi_congrats_button">सेटिंग्ज</string>
+    <!-- Settings -->
+    <string name="marathi_menu_language">MAR</string>
+    <string name="marathi_settings_instruction">स्वरचक्र मराठी कीबोर्ड आकार</string>
+    <string name="marathi_settings_layout_big">मोठा</string>
+    <string name="marathi_settings_layout_small">छोटा</string>
+    <!-- hex -->
+    <string name="marathi_settings_layout_hex">चिरेबंदी</string>
+    <string name="marathi_do_you_like">स्वरचक्र आवडलं का?</string>
+    <string name="marathi_rate_us">गूगल प्ले स्टोर वर रेटिंग देऊन आपला अभिप्राय कळवा.</string>
+    <string name="marathi_fb_likeus">स्वरचक्रला फेसबुकवर लाइक करा</string>
+    <string name="marathi_tapaatap_download">टपाटप गेम डाउनलोड करा</string>
+
+    <string name="marathi_tryit">वापरून बघा</string>
+    <string name="marathi_height1">छोटा</string>
+    <!-- <string name="height2">D</string>
+     <string name="height3">C</string>
+     <string name="height4">B</string>-->
+    <string name="marathi_height5">मोठा</string>
+    <string name="marathi_heightreco">सुचवलेला</string>
+    <string name="marathi_preview_your_settings">पूर्वावलोकन</string>
+    <string name="marathi_back">मागे</string>
+
+</resources>

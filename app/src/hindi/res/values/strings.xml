@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">स्वरचक्र हिन्दी (Swarachakra Hindi)</string>
+    <string name="title">स्वरचक्र हिन्दी</string>
+    <string name="language_name">hindi</string>
+
+    <!-- Logger Strings -->
+    <string name="logger_map">muppetymaphindi.dat</string>
+    <string name="logger_language">heendey</string>
+
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- Hindi -->
+    <!-- English Language specific changes fragment -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Hindi text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Hindi\"</string>
+    <string name="default_step_1">1) In the next screen, select \"Swarachakra Hindi\"</string>
+    <!-- Welcome fragment -->
+    <string name="hindi_welcome_instruction">Welcome. If you are unable to see the following Hindi text then your device is not supported.</string>
+    <string name="hindi_welcome_title">क्या आपका फोन यह वाक्य हिन्दी में ठीक से दिखा रहा है?</string>
+    <!-- Enable Fragment -->
+    <string name="hindi_enable_instructions_head">स्वरचक्र इस्तमाल करनेसे पहले इसे एनेबल और डीफाल्ट बनाना पडेगा।</string>
+    <string name="hindi_enable_step_1">१) अगले स्क्रीन पर \"स्वरचक्र हिन्दी\" चुनिए</string>
+    <string name="hindi_enable_step_2">२) फिर \"ओके\" दबाइए </string>
+    <string name="hindi_enable_step_3">३) अंत में आपके फोनका \"बैक\" बटन दबाइए</string>
+    <!-- Default Fragment -->
+    <string name="hindi_default_instructions_head">स्वरचक्र हिन्दी एनेबल हो चुका है। अब इसे डीफॉल्ट बनाएं। </string>
+    <string name="hindi_default_step_1">१) अगले स्क्रीन पर स्वरचक्र हिन्दी चुनिए</string>
+    <!-- Button Text -->
+    <string name="hindi_welcome_button">हाँ, ठीक है|</string>
+    <string name="hindi_enable_button">स्वरचक्र एनेबल करें</string>
+    <string name="hindi_default_button">स्वरचक्र को डिफॉल्ट बनायें</string>
+    <!-- Congrats fragment -->
+    <string name="hindi_congrats_instruction">स्वरचक्र इस्तेमाल के लिए तैयार है।</string>
+    <string name="hindi_congrats_title">धन्यवाद</string>
+    <string name="hindi_congrats_button">सेटिंग्ज</string>
+    <!-- Settings -->
+    <string name="hindi_menu_language">HIN</string>
+    <string name="hindi_settings_instruction">स्वरचक्र कीबोर्ड का आकार</string>
+    <string name="hindi_settings_layout_big">छोटा</string>
+    <string name="hindi_settings_layout_small">बडा</string>
+    <string name="hindi_do_you_like">क्या स्वरचक्र आपको पसंद है?</string>
+    <string name="hindi_rate_us">हमें गूगल प्ले स्टोर पर रेट करके आपकी राय भेजें.</string>
+</resources>

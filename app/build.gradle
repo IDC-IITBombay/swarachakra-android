@@ -1,0 +1,96 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "iit.android.swarachakraMarathi"
+        minSdkVersion 14
+        targetSdkVersion 23
+    }
+
+    productFlavors {
+        bengali {
+            applicationId "iit.android.swarachakraBengali"
+            versionCode 18
+            versionName "2.01"
+        }
+
+        gujarati {
+            applicationId "iit.android.swarachakraGujarati"
+            versionCode 15
+            versionName "2.0"
+        }
+
+        hindi {
+            applicationId "iit.android.swarachakra"
+            versionCode 19
+            versionName "2.0"
+        }
+
+        kannada {
+            applicationId "iit.android.swarachakraKannada"
+            versionCode 17
+            versionName "2.01"
+        }
+
+        konkani {
+            applicationId "iit.android.swarachakraKonkani"
+            versionCode 7
+            versionName "2.01"
+        }
+
+        malayalam {
+            applicationId "iit.android.swarachakraMalayalam"
+            versionCode 15
+            versionName "2.01"
+        }
+
+        marathi {
+            applicationId "iit.android.swarachakraMarathi"
+            versionCode 35
+            versionName "2.21"
+        }
+
+        oriya {
+            applicationId "iit.android.swarachakraOriya"
+            versionCode 2
+            versionName "2.0"
+        }
+
+        telugu {
+            applicationId "iit.android.swarachakraTelugu"
+            versionCode 17
+            versionName "2.01"
+        }
+        tamil {
+            applicationId "iit.android.swarachakraTamil"
+            versionCode 20
+            versionName "2.01"
+        }
+        asomiya {
+            applicationId "iit.android.swarachakraAsomiya"
+            versionCode 21
+            versionName "2.01"
+        }
+        punjabi {
+            applicationId "iit.android.swarachakraPunjabi"
+            versionCode 13
+            versionName "2.0"
+        }
+
+        buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+                zipAlignEnabled true
+            }
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:design:23.1.1'
+}

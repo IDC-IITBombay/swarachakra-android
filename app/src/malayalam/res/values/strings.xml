@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">സ്വരചക്ര മലയാളം (Swarachakra Malayalam)</string>
+    <string name="language_name">malayalam</string>
+
+    <string name="title">സ്വരചക്ര മലയാളം </string>
+
+    <string name="logger_map">muppetymapmalayalam.dat</string>
+    <string name="logger_language">malayaluumm</string>
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- English Language specific fragments -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Malayalam text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Malayalam\"</string>
+    <string name="default_step_1">1)In the next screen, select \"Swarachakra Malayalam\"</string>
+    <!-- Malayalam -->
+    <!-- Welcome fragment -->
+    <string name="malayalam_welcome_instruction">Welcome. If you are unable to see the following Malayalam text then your device is not supported.</string>
+    <string name="malayalam_welcome_title">നിങ്ങളുടെ ഫോണിൽ ഈ വാക്യം വ്യക്തമായി  കാണാൻ കഴിയുന്നുണ്ടോ</string>
+    <!-- Enable Fragment -->
+    <string name="malayalam_enable_instructions_head">സ്വരച്ചക്ര ഉപയോഗിച്ച് തുടങ്ങാൻ ആദ്യം അതിനെ എനേബിൾ ചെയ്തിട്ട് ഡിഫോൾട്ട് ആക്കുക</string>
+    <string name="malayalam_enable_step_1">1) അടുത്ത സ്ക്രീനിൽ സ്വരച്ചക്ര മലയാളം തിരഞ്ഞെടുക്കുക</string>
+    <string name="malayalam_enable_step_2">2) പിന്നീടു ഓക്കേ ക്ലിക്ക് ചെയ്യുക</string>
+    <string name="malayalam_enable_step_3">3) അവസാനമായി  ഫോണിലെ ബാക്ക് ബട്ടണ്‍  അമർത്തുക</string>
+    <!-- Default Fragment -->
+    <string name="malayalam_default_instructions_head">സ്വരച്ചക്ര മലയാളം വിജയകരമായി എനേബിൾ ആയിക്കഴിഞ്ഞു. ഇപ്പോൾ അതിനെ ഡിഫോൾട്ട് ആക്കുക </string>
+    <string name="malayalam_default_step_1">1) അടുത്ത സ്ക്രീനിൽ സ്വരച്ചക്ര  മലയാളം  തിരഞ്ഞെടുക്കുക </string>
+    <!-- Button Text -->
+    <string name="malayalam_welcome_button">ശരി തന്നെ</string>
+    <string name="malayalam_enable_button">സ്വരച്ചക്ര എനേബിൾ ചെയ്യുക</string>
+    <string name="malayalam_default_button">സ്വരച്ചക്ര ഡിഫോൾട്ട് ആയി തിരഞ്ഞെടുക്കുക</string>
+    <!-- Congrats fragment -->
+    <string name="malayalam_congrats_instruction">സ്വരച്ചക്ര ഉപയോഗിക്കാൻ തയ്യാർ ആണ്</string>
+    <string name="malayalam_congrats_title">നന്ദി</string>
+    <string name="malayalam_congrats_button">സെറ്റിംഗ്സ്</string>
+    <!-- Settings -->
+    <string name="malayalam_menu_language">MAL</string>
+    <string name="malayalam_settings_instruction">സ്വരച്ചക്ര കീബൊർഡിന്റെ വലിപ്പം</string>
+    <string name="malayalam_settings_layout_big">ചെറുത്‌</string>
+    <string name="malayalam_settings_layout_small">വലുത്</string>
+    <string name="malayalam_do_you_like">സ്വരച്ചക്ര നിങ്ങൾക്ക്‌ ഇഷ്ടം ആയോ ?</string>
+    <string name="malayalam_rate_us">ഗൂഗിൾ പ്ലേ സ്റ്റോറിൽ നിങ്ങളുടെ അഭിപ്രായം രേഖപ്പെടുത്തുക</string>
+</resources>

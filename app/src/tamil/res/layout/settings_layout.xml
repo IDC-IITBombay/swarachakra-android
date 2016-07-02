@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+    android:id="@+id/settings_relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <RadioGroup
+        android:id="@+id/layoutRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instruction"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/smallRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            style="@style/settings_layout"
+            android:button="@null"
+            android:focusable="false"
+            android:layout_weight="1"
+            android:text="@string/settings_layout_small" 
+            android:visibility="gone"
+            >
+        </RadioButton>
+        
+
+        <RadioButton
+            android:id="@+id/bigRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            style="@style/settings_layout"
+            android:button="@null"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:text="@string/settings_layout_big" 
+            android:visibility="gone"
+            />
+
+        <RadioButton
+            android:id="@+id/hexRadioButton"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            style="@style/settings_layout"
+            android:button="@null"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:textColor="#ffffff"
+            android:background="#4c8072"
+            android:text="@string/settings_layout_hex" />
+
+    </RadioGroup>
+    
+    <EditText android:id="@+id/preview_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/preview_your_settings"/>
+    
+     <TextView
+        android:id="@+id/likeus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/preview_edit_text"
+        android:text="@string/do_you_like" />
+	<Button
+        android:id="@+id/rateus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/likeus"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:text="@string/rate_us" />
+    
+    <fragment android:id="@+id/settings_fragment" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="iit.android.settings.UserSettings"/>
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="title">ஸ்வரச்சக்ரா தமிழ்</string>
+    <string name="app_name">ஸ்வரச்சக்ரா தமிழ்(Swarachakra Tamil)</string>
+    <string name="language_name">tamil</string>
+
+    <!-- Logger Strings -->
+    <string name="logger_map">muppetymaptamil.dat</string>
+    <string name="logger_language">taaamiil</string>
+
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- English Language specific fragment -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Tamil text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Tamil\"</string>
+    <string name="default_step_1">1) In the next screen, select \"Swarachakra Tamil\"</string>
+    <!-- Tamil -->
+
+    <!-- Welcome fragment -->
+    <string name="tamil_welcome_instruction">Welcome. If you are unable to see the following Tamil text then your device is not supported.</string>
+    <string name="tamil_welcome_title">உங்களுடைய கைபேசியில் தமிழ் எழுத்துக்கள் சரியாக வருகிறதா ?</string>
+    <!-- Enable Fragment -->
+    <string name="tamil_enable_instructions_head">ஸ்வரச்சக்ராவை தொடங்க அதனை எனேபல் செய்து பின் டிபால்ட் செய்யவும்</string>
+    <string name="tamil_enable_step_1">அடுத்த கட்டத்தில் \"ஸ்வரச்சக்ரா தமிழ்\" தேர்வு செய்யுங்கள்</string>
+    <string name="tamil_enable_step_2">பிறகு \'ஓகே\' செய்யுங்கள்</string>
+    <string name="tamil_enable_step_3">இறுதியாக பேக் புட்டோனை அழுத்தவும்</string>
+    <!-- Default Fragment -->
+    <string name="tamil_default_instructions_head">ஸ்வரச்சக்ரா தமிழ் விசைப்பலகை எனேபல் ஆகிவிட்டது. இப்பொழுது அதனை டிபால்ட் செய்யவும்.</string>
+    <string name="tamil_default_step_1">அடுத்த கட்டத்தில் ஸ்வரச்சக்ரா தமிழ் தேர்வு செய்யவும்</string>
+    <!-- Button Text -->
+    <string name="tamil_welcome_button">ஆம், சரியாக இருக்கிறது</string>
+    <string name="tamil_enable_button">ஸ்வரச்சக்ராவை எனேபல் செய்யவும்</string>
+    <string name="tamil_default_button">ஸ்வரச்சக்ரா தமிழ் டிபால்ட்</string>
+    <!-- Congrats fragment -->
+    <string name="tamil_congrats_instruction">ஸ்வரச்சக்ரா தமிழ் பயன்படுத்த தயாராக இருக்கிறது.</string>
+    <string name="tamil_congrats_title">நன்றி</string>
+    <string name="tamil_congrats_button">செட்டிங்க்ஸ்</string>
+    <!-- Settings -->
+    <string name="tamil_menu_language">TAM</string>
+    <string name="tamil_settings_instruction"></string>
+    <string name="tamil_settings_layout_big">சிறியது</string>
+    <string name="tamil_settings_layout_small">பெரியது</string>
+    <string name="tamil_do_you_like"></string>  <!-- உங்களுக்கு ஸ்வரச்சக்ராவை பிடித்துள்ளதா -->
+    <string name="tamil_rate_us">பிடித்திருந்தால், கூகிள் பலே ஸ்டோரில் எங்களை ரேட் செய்யவும்.</string>
+    <!-- Settings : overriding this string with empty value-->
+    <string name="settings_instruction"></string>
+</resources>

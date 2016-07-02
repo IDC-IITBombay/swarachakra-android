@@ -1,0 +1,45 @@
+<resources>
+    <string name="title">స్వరచక్ర తెలుగు</string>
+    <string name="app_name">స్వరచక్ర తెలుగు (Swarachakra Telugu)</string>
+    <string name="language_name">telugu</string>
+
+    <!-- Logger Strings -->
+    <string name="logger_map">muppetymaptelugu.dat</string>
+    <string name="logger_language">teelugu</string>
+
+    <!-- Settings -->
+    <!-- Fragments -->
+    <!-- Welcome fragment -->
+    <string name="welcome_instruction">Welcome. If you are unable to see the following Telugu text then your device is not supported.</string>
+    <string name="enable_step_1">1) In the next screen, select \"Swarachakra Telugu\"</string>
+    <string name="default_step_1">1) In the next screen, select \"Swarachakra Telugu\"</string>
+    <!-- Telugu -->
+    <!-- Welcome fragment -->
+    <string name="telugu_welcome_instruction">"Welcome. If you are unable to see the following Telugu text then your device is not supported."</string>
+    <string name="telugu_welcome_title">మీ ఫోన్ లో ఈ తెలుగు వాఖ్యం సరిగానే కనిపిస్తుందా?</string>
+    <!-- Enable Fragment -->
+    <string name="telugu_enable_instructions_head">స్వరచక్ర ని ప్రయోగించుటకు దానిని ఎనేబుల్ చేసి డిఫాల్ట్ గా మార్చాలి</string>
+    <string name="telugu_enable_step_1">1) వచ్చే స్క్రీన్ లో \"స్వరచక్ర తెలుగు\" పైన క్లిక్ చేయండి. </string>
+    <string name="telugu_enable_step_2">2) తరువాత \"ఓకే\" బటన్ పై క్లిక్ చేయండి. </string>
+    <string name="telugu_enable_step_3">3) తరువాత మీ ఫోను \"బ్యాక్\" బటన్ పై క్లిక్ చేయండి. </string>
+    <!-- Default Fragment -->
+    <string name="telugu_default_instructions_head">స్వరచక్ర ఎనేబుల్ అయ్యింది. ఇప్పుడు దానిని డిఫాల్ట్ చేయాలి. </string>
+    <string name="telugu_default_step_1">1)  వచ్చే స్క్రీన్ లో \"స్వరచక్ర తెలుగు\" పైన క్లిక్ చేయండి</string>
+    <!-- Settings -->
+    <!-- Button Text -->
+    <string name="telugu_welcome_button">సరిగానే కనిపిస్తుంది</string>
+    <string name="telugu_enable_button">స్వరచక్ర ని ఎనేబుల్ చేయండి</string>
+    <string name="telugu_default_button">స్వరచక్ర ని డిఫాల్ట్ చేయండి</string>
+    <!-- Congrats fragment -->
+    <string name="telugu_congrats_instruction">స్వరచక్ర సెట్ అప్ పూర్తి అయ్యింది</string>
+    <string name="telugu_congrats_title">ధన్యవాదాలు</string>
+    <string name="telugu_congrats_button">సెట్టింగ్స్</string>
+    <string name="telugu_menu_language">TEL</string>
+    <!--  Settings -->
+    <string name="telugu_settings_instruction">స్వరచక్ర కీబోర్డు యొక్క సైజు</string>
+    <string name="telugu_settings_layout_big">చిన్న</string>
+    <string name="telugu_settings_layout_small">పెద్ద</string>
+    <string name="telugu_do_you_like">స్వరచక్ర మీకు నచిండా?</string>
+    <string name="telugu_rate_us">గూగుల్ ప్లే స్టోర్ లో రేటింగ్ ద్వారా మీ అభిప్రాయాన్ని పంపండి.</string>
+
+</resources>
