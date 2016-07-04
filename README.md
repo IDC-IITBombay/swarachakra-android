@@ -1,6 +1,6 @@
 # Swarachakra
 
-Swarachakra is a free text input application developed by the IDID group at Industrial Design Center (IDC), Indian Institute of Technology Bombay for Indic scripts.
+Swarachakra is a free text input application developed by the IDIN group at Industrial Design Center (IDC), Indian Institute of Technology Bombay for Indic scripts.
 
 ## License
 
@@ -12,8 +12,10 @@ To view the copyright notice please see (http://www.apache.org/licenses/LICENSE-
 
 The program binaries are not directly part of this repository, as it only contains source files; 
 however, the binaries are available at the Google Play Store.
+https://play.google.com/store/search?q=swarachakra&c=apps
 
 ## How do I install the application on my mobile?
+https://play.google.com/store/search?q=swarachakra&c=apps
 
 ## Getting Involved
 
@@ -23,7 +25,7 @@ Would you like to contribute to the development of this application? Here is how
 
 2. Contribute directly to the application. 
     In this repository we provide the complete set of source files that we use ourselves to develop the application. 
-    If you with to contribute directly, please see below how we build the application and follow our build process, so that we can easily include your contribution. 
+    If you wish to contribute directly, please see below how we build the application and follow our build process, so that we can easily include your contribution. 
     Please follow the normal Github pull request process to send your contribution. 
 
 ### Bug Reports
