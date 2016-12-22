@@ -88,7 +88,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 	};
 
 	private SoftKeyboard mSoftKeyboard;
-	private KeyLogger mKeyLogger;
+	//private KeyLogger mKeyLogger;
 	//private ExceptionHandler mExceptionHandler;
 	private int touchDownX;
 	private int touchDownY;
@@ -394,7 +394,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 	/**
 	 * Changes the language of the keyboard
 	 * 
-	 * @param layout
+	 *
 	 *            name string of the layout resource
 	 */
 	private void changeLanguage() {
@@ -558,7 +558,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 			ExtractedText edt= mInputConnection.getExtractedText(new ExtractedTextRequest(), 0);
 			
 			if(edt != null){
-				mKeyLogger.extractedText = edt.text.toString();
+				//mKeyLogger.extractedText = edt.text.toString();
 			}
 			else{
 				//mLog.d(mKeyLogger.TAG,"handlechar(): About to hide, nothing to save" + edt);
@@ -726,7 +726,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 		return region;
 	}
 
-	public void setKeyLogger(KeyLogger keyLogger) {
+	/*public void setKeyLogger(KeyLogger keyLogger) {
 		mKeyLogger = keyLogger;	
-	}
+	}*/
 }
