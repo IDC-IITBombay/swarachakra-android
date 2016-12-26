@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android.support.design="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:id="@+id/topView_default"
+    >
+	
+    <RelativeLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+    
+	    <TextView android:id="@+id/default_instructions_head"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:padding="20dp" />
+	    
+	    <TextView android:id="@+id/default_step_1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+            android:layout_below="@+id/default_instructions_head"
+	        android:textSize="20sp"
+	        android:padding="20dp"/>
+	    
+	    <ImageView android:id="@+id/default_step_1_img"
+            android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+            android:layout_below="@+id/default_step_1"
+	        android:src="@drawable/default_step_1"
+	        android:contentDescription="@string/default_step_1"
+	        android:adjustViewBounds="true"
+	        android:paddingLeft="40dp"
+	        android:paddingRight="40dp"/>
+	    
+	    <Button android:id="@+id/default_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:layout_below="@+id/default_step_1_img"
+	        android:layout_gravity="left"
+	        android:padding="10dp"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginBottom="5dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	        android:textColor="#fff"
+	        android:onClick="buttonClick"
+	        android:background="@drawable/button"
+	        android:textAppearance="?android:attr/textAppearanceLarge"/>
+		<!--<Button
+			android:id="@+id/toggleLanguage_default"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            android:layout_below="@+id/default_button"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="20dp"
+            android:layout_alignLeft="@+id/default_button"
+			android:background="@drawable/button"
+			android:onClick="changeLanguage"
+			android:padding="10dp"
+            android:text="@string/menu_language"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#fff"
+            android:layout_gravity="left" />-->
+
+    
+	</RelativeLayout>
+</ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/toggleLanguage_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:onClick="changeLanguage"
+        android:src="@drawable/marathi"
+        app:layout_anchor="@+id/topView_default"
+        app:layout_anchorGravity="bottom|right|end"/>
+    </android.support.design.widget.CoordinatorLayout>
+

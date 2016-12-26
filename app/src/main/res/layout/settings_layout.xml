@@ -155,16 +155,16 @@
         android:layout_below="@+id/labels"
         android:text="@string/do_you_like" />
 	<Button
-    android:id="@+id/rateus"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:gravity="center_horizontal"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
-    android:layout_below="@+id/likeus"
-    android:background="#383838"
-    android:textColor="#fff"
-    android:text="@string/rate_us" />
+        android:id="@+id/rateus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/likeus"
+        android:background="#383838"
+        android:textColor="#fff"
+        android:text="@string/rate_us" />
     <Button
         android:id="@+id/fb_likeus"
         android:layout_width="40dp"

@@ -11,6 +11,7 @@ import android.content.Context;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.Keyboard.Key;
 import android.inputmethodservice.KeyboardView.OnKeyboardActionListener;
+import android.os.Debug;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
@@ -88,7 +89,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 	};
 
 	private SoftKeyboard mSoftKeyboard;
-	//private KeyLogger mKeyLogger;
+//	private KeyLogger mKeyLogger;
 	//private ExceptionHandler mExceptionHandler;
 	private int touchDownX;
 	private int touchDownY;
@@ -394,7 +395,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 	/**
 	 * Changes the language of the keyboard
 	 * 
-	 *
+	 * @param layout
 	 *            name string of the layout resource
 	 */
 	private void changeLanguage() {
@@ -479,7 +480,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 		if(i>0 && !mExceptionLangHandler.languageConsonants.contains(test.charAt(i))){
 			//mLog.v("system","insideLangConsonants");
 			if((i)>0 && mExceptionLangHandler.chakraVowelModifiers.contains(test.charAt(i)) ){
-				if (String.valueOf(test.charAt(i)).equals("्")) {
+				if (String.valueOf(test.charAt(i)).equals("્")) {
 					//mLog.v("system","insideHalant check");
 					//Character c = test.charAt(i-1);
 					String str = String.valueOf(test.charAt(i));
@@ -493,7 +494,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 							}
 						}else if(j>=0 && mExceptionLangHandler.chakraVowelModifiers.contains(test.charAt(j)) ){
 							//vowelModCount = vowelModCount+1;
-							if(String.valueOf(test.charAt(j)).equals("्")){
+							if(String.valueOf(test.charAt(j)).equals("્")){
 								str =   String.valueOf(test.charAt(j)) +str;
 							}else{
 								break;
@@ -558,7 +559,8 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 			ExtractedText edt= mInputConnection.getExtractedText(new ExtractedTextRequest(), 0);
 			
 			if(edt != null){
-				//mKeyLogger.extractedText = edt.text.toString();
+//				Debug.SHOW_FULL_DETAIL();
+//				mKeyLogger.extractedText = edt.text.toString();
 			}
 			else{
 				//mLog.d(mKeyLogger.TAG,"handlechar(): About to hide, nothing to save" + edt);
@@ -576,8 +578,10 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 				String nextLabel = "";
 				if (inExceptionMode && sKeys.containsKey(code)) {
 					nextLabel = sKeys.get(code).label;
-					//mLog.d("exhandle", "nextLabel = " + nextLabel);
-				} else {
+//					Log mLog;
+//					mLog.d("exhandle", "nextLabel = " + nextLabel);
+				}
+				else {
 					nextLabel = preText + mKeys.get(code).label;
 				}
 				key.label = nextLabel;
@@ -726,7 +730,7 @@ public class MainKeyboardActionListener implements OnKeyboardActionListener,
 		return region;
 	}
 
-	/*public void setKeyLogger(KeyLogger keyLogger) {
-		mKeyLogger = keyLogger;	
-	}*/
+//	public void setKeyLogger(KeyLogger keyLogger) {
+//		mKeyLogger = keyLogger;
+//	}
 }

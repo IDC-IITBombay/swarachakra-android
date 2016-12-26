@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="10.124%p"
+    android:keyWidth="6.67%p">
+    <!--layout height change 1: general keyheight-->
+
+    <!--layout height change 2: row 0 keyheight-->
+    <!--00000000000 Row Zero-->
+    <Row android:keyHeight="6.328%p">
+        <!--trying additional space bar at the top, will drop eventually -->
+        <Key
+            android:codes="@string/space"
+            android:keyEdgeFlags="left"
+            android:keyHeight="0%p"
+            android:keyWidth="80%p" />
+    </Row>
+    <!--111111111111111111111111111-->
+    <Row>
+
+
+        <Key
+            android:codes="73"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="66" />
+
+        <Key android:codes="132" />
+
+
+        <Key android:codes="85" />
+
+        <Key android:codes="86" />
+
+
+        <Key android:codes="80" />
+
+        <Key android:codes="81" />
+
+        <Key android:codes="110" />
+
+        <Key android:codes="111" />
+
+        <Key android:codes="112" />
+
+        <Key android:codes="56" />
+
+        <Key android:codes="57" />
+
+        <Key android:codes="58" />
+
+        <Key android:codes="59" />
+
+        <!--layout height change 3: backspace keyheight-->
+        <Key
+            android:codes="@string/backspace"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyHeight="20.248%p"
+            android:keyIcon="@drawable/delete" />
+
+
+    </Row>
+    <!-- 22222222222222222222222222222222222222222-->
+
+    <Row>
+
+        <Key
+            android:codes="61"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="79" />
+
+        <Key android:codes="135" />
+
+        <Key android:codes="99" />
+
+        <Key android:codes="100" />
+
+        <Key android:codes="87" />
+
+        <Key android:codes="83" />
+
+        <Key android:codes="113" />
+
+        <Key android:codes="114" />
+
+        <Key android:codes="115" />
+
+
+        <Key android:codes="62" />
+
+        <Key android:codes="63" />
+
+        <Key android:codes="64" />
+
+        <Key android:codes="65" />
+
+
+    </Row>
+    <!-- 3333333333333333333333333333333-->
+
+
+    <Row>
+
+        <Key
+            android:codes="67"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="74" />
+
+        <Key android:codes="47" />
+
+        <Key android:codes="105" />
+
+        <Key android:codes="106" />
+
+        <Key android:codes="84" />
+
+        <Key android:codes="90" />
+
+        <Key android:codes="116" />
+
+        <Key android:codes="117" />
+
+        <Key android:codes="118" />
+
+        <Key android:codes="68" />
+
+        <Key android:codes="69" />
+
+        <Key android:codes="70" />
+
+        <Key android:codes="78" />
+
+        <Key android:codes="72" />
+
+
+    </Row>
+
+    <!-- 4444444444444444444444444444-->
+    <Row>
+
+        <Key android:codes="94" />
+
+        <Key android:codes="55" />
+
+        <Key android:codes="127" />
+
+        <Key android:codes="125" />
+
+        <Key android:codes="126" />
+
+        <Key android:codes="88" />
+
+        <Key android:codes="95" />
+
+        <Key android:codes="77" />
+
+        <Key android:codes="119" />
+
+        <Key android:codes="75" />
+
+
+        <Key android:codes="42" />
+
+        <Key android:codes="76" />
+
+        <Key android:codes="41" />
+
+        <Key android:codes="71" />
+
+        <Key android:codes="82" />
+
+
+    </Row>
+    <!-- 55555555555555555555555555555555-->
+
+    <!--layout height change 4: last row keyheight-->
+    <Row android:keyHeight="15.186%p">
+
+        <Key
+            android:codes="@string/symbols"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/shift"
+            android:keyWidth="13.33%p" />
+
+        <Key
+            android:codes="@string/english"
+            android:keyLabel="En" />
+
+
+        <Key
+            android:codes="@string/space"
+            android:keyWidth="26.67%p" />
+
+
+        <Key android:codes="92" />
+
+        <Key android:codes="93" />
+
+        <Key android:codes="133" />
+
+        <Key android:codes="134" />
+
+        <Key android:codes="91" />
+
+        <Key android:codes="55" />
+
+
+        <Key
+            android:codes="@string/enter"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="13.33%p" />
+    </Row>
+
+
+</Keyboard>

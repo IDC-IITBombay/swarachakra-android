@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/incremental-classes/gujarati/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="abced15fa895e6c0ea018848ab5d4eb71641d902">
+        <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/instant-run-bootstrap_8781e62d990cde1aa7bfab2b6096b6fe49a309dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/incremental-classes/gujarati/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca0421040162a096bf3a261881f09cf173baf2e8">
+        <dex dex="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/instant-run-bootstrap_03184abac2f83e24aefa63ba8a712bda075838d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/internal_impl-23.1.1_6d99ab8c99876ae89e24132d5c1722077b328f31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_b0afc17e6553a41cf5d3bc12f25b3a5fb2d0cb1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/support-annotations-23.1.1_699730586563bc65c922eff8b8380076919beb23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_0f9cf14bdf1ef5cb136232b1567b48729da67721/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/com.android.support-design-23.1.1_c02c1be7ee010624a591740a5245d3dcee92be0b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/com.android.support-support-v4-23.1.1_bffbcc642c095d99d00fc1bf86c4a2d795a41d9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_e4879ad665e85d662b5c2dffd01a8ec687779617/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/incremental-runtime-classes/gujarati/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b46c935aeb759fc3dcae6820d9311e39187de0be">
+        <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/instant-run_79294cf2cb74d25736e6759d54bc4703f7efab33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/internal_impl-23.1.1_1082484f08396324881cecf5150c5bc718a9b3d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/incremental-runtime-classes/gujarati/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70a2132263be900a02a620f35ba086fb82ceca5e">
+        <dex dex="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/instant-run_d7369b093c96c5d2ebe91760f61c4014f57629eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/com.android.support-design-23.1.1_70d5257e7eeb667f48df6ead3f4bba61976362c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/com.android.support-support-v4-23.1.1_491b2eff4ee72fad283cda1c1845d06c81f30fc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_504fd23074e3d335dbccb894dad5b6116bcb0aa2/classes.dex" />
+    </item>
+
+</items>

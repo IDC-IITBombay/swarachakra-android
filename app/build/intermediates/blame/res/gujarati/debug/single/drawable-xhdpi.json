@@ -1,0 +1,1002 @@
+[
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/overlay.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/overlay.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size2_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size2_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/settings_layout_small.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/settings_layout_small.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size2_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size2_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/space.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/space.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_land_tablet_main_default_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/rect_land_tablet_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size1.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size1.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_port_phone_main_default_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/rect_port_phone_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/ic_action_search.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/cut_bg.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/cut_bg.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/settings_layout_big.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/settings_layout_big.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size1_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size1_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/copy_bg.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/copy_bg.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_land_phone_main_default_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/hex_land_phone_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/phone_portrait.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/phone_portrait.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/tapaatap_logo.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/tapaatap_logo.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size2.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size2.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/english_key_bg_normal.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/english_key_bg_normal.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rakar.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/rakar.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size3.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size3.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rafar.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/rafar.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_port_tablet_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/rect_port_tablet_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size5.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size5.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/nukta.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/nukta.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_land_phone_main_default_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/rect_land_phone_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_land_tablet_main_default_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/hex_land_tablet_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/copy_bg.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/copy_bg.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size3_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size3_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/marathi.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/marathi.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/playlogo.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/playlogo.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/phone_portrait.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/phone_portrait.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_focused_holo.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_land_phone_main_default_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/hex_land_phone_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size3_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size3_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size3.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size3.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_port_tablet_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/hex_port_tablet_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/anuswara.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/anuswara.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/pagedown.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/pagedown.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size5.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size5.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/done.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/done.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/tablet_portrait.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/tablet_portrait.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/playlogo_orig.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/playlogo_orig.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/english_key_bg_pressed.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/english_key_bg_pressed.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_port_tablet_main_default_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/hex_port_tablet_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/delete.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/delete.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/settings_layout_small.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/settings_layout_small.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/playlogo_orig.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/playlogo_orig.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_port_phone_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/rect_port_phone_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size4_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size4_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/nukta.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/nukta.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size4.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size4.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_land_phone_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/hex_land_phone_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_land_tablet_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/hex_land_tablet_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/settings_layout_big.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/settings_layout_big.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/english_key_preview_bg.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/english_key_preview_bg.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/enable_step_1.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/enable_step_1.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size5_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size5_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/indian_portrait_background.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/indian_portrait_background.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/search.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/search.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_land_phone_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/rect_land_phone_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/bindu.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/bindu.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/done_bg.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/done_bg.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/cut_bg.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/cut_bg.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/ru.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/ru.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size5.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size5.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/overlay.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/overlay.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size5_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size5_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size4.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size4.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/space.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/space.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/sym_keyboard_return.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/sym_keyboard_return.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/ae.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/ae.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size4.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size4.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/bindu.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/bindu.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size4_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size4_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size5.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size5.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_port_phone_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/rect_port_phone_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_land_tablet_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/hex_land_tablet_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/chandrakor.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/chandrakor.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_port_tablet_main_default_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/hex_port_tablet_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/indian_portrait_background.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/indian_portrait_background.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size1_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size1_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size4.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size4.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/marathi.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/marathi.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_land_phone_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/rect_land_phone_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/chandrabindu.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/chandrabindu.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/shift_disable.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/shift_disable.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/visarga.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/visarga.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_port_phone_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/hex_port_phone_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size3_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size3_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rafar.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/rafar.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size2_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size2_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size2.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_size2.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/pageup.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/pageup.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_port_phone_main_default_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/rect_port_phone_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/trakar.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/trakar.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size3_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size3_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/done.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/done.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size1_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size1_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/shift_active.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/shift_active.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_land_tablet_main_default_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/rect_land_tablet_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/fblogo.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/fblogo.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/search.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/search.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_port_tablet_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/hex_port_tablet_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/fblogo.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/fblogo.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size2_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size2_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size3.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size3.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/playlogo.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/playlogo.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_longpressed_holo.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/ru.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/ru.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/anuswara.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/anuswara.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/pagedown.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/pagedown.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/chandrakor.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/chandrakor.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/aakara.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/aakara.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/shift.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/shift.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/sym_keyboard_return.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/sym_keyboard_return.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/pageup.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/pageup.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rakar.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/rakar.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/done_bg.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/done_bg.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_port_phone_main_default_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/hex_port_phone_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_land_tablet_main_default_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/hex_land_tablet_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size1_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size1_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size3.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size3.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/english.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/english.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/visarga.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/visarga.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_land_phone_main_default_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/rect_land_phone_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/trakar.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/trakar.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/chandra.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/chandra.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/english_key_bg_pressed.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/english_key_bg_pressed.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_port_phone_main_default_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/hex_port_phone_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/chandrabindu.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/chandrabindu.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size4_dark.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size4_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/default_step_1.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/default_step_1.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_land_tablet_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/rect_land_tablet_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/shift_active.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/shift_active.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/aakara.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/aakara.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/tablet_portrait.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/tablet_portrait.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size1.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size1.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_port_tablet_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/rect_port_tablet_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size2.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size2.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_port_phone_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/hex_port_phone_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/english_key_preview_bg.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/english_key_preview_bg.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_port_tablet_main_default_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-xhdpi/rect_port_tablet_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/english.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/english.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size5_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size5_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/ic_action_search.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/ae.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/ae.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/shift_disable.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/shift_disable.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/english_key_bg_normal.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/english_key_bg_normal.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/default_step_1.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/default_step_1.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/landscape.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/landscape.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size5_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size5_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/landscape.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/landscape.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/delete.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/delete.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_longpressed_holo.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size2.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size2.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/enable_step_1.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/enable_step_1.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_land_tablet_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/rect_land_tablet_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size1.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size1.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/tapaatap_logo.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/tapaatap_logo.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_landscape_size1.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_landscape_size1.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/chandra.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/chandra.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/rect_port_tablet_main_default_themea.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable-xhdpi/rect_port_tablet_main_default_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/hex_land_phone_main_symbols_themea.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/hex_land_phone_main_symbols_themea.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/icon_size4_dark.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/gujarati/res/drawable-xhdpi/icon_size4_dark.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/shift.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/shift.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_focused_holo.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png"
+    }
+]

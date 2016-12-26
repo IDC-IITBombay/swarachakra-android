@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/incremental/mergeGujaratiDebugResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 55,
+                        "endOffset": 280
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/incremental/mergeGujaratiDebugResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 55,
+                        "endOffset": 280
+                    }
+                }
+            }
+        ]
+    }
+]

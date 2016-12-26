@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/neer/GitHub/swarachakra-android/app/src/main/shaders"/></dataSet><dataSet config="gujarati"><source path="/Users/neer/GitHub/swarachakra-android/app/src/gujarati/shaders"/></dataSet><dataSet config="debug"><source path="/Users/neer/GitHub/swarachakra-android/app/src/debug/shaders"/></dataSet><dataSet config="gujaratiDebug"><source path="/Users/neer/GitHub/swarachakra-android/app/src/gujaratiDebug/shaders"/></dataSet></merger>

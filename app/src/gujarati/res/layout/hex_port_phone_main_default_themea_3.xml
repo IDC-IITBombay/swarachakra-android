@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="5.63%p"
+    android:keyWidth="11.6%p"
+    >
+    <!--layout height change 1: keyheight -->
+
+    <!--00000000000 Row Zero-->
+    <!--layout height change 2: keyheight for the top blank row -->
+    <Row  android:keyHeight="3.42%p">
+        <!--trying additional space bar at the top, will drop eventually -->
+        <Key
+            android:codes="@string/space"
+            android:keyEdgeFlags="left"
+            android:keyHeight="0%p"
+            android:keyWidth="80%p" />
+    </Row>
+
+    <!--11111111111111111111-->
+    <Row rowEdgeFlags="top">
+        <!--Marathi fullstop -->
+        <Key android:codes="41"
+            android:keyEdgeFlags="left"
+            />
+
+        <!--ka -->
+        <Key android:codes="1" android:horizontalGap="8%p"/>
+        <!--kha -->
+        <Key android:codes="2" />
+        <!--ga -->
+        <Key android:codes="3" />
+        <!--gha -->
+        <Key android:codes="4" />
+        <!--gna -->
+        <Key android:codes="5" />
+
+
+        <!--backspace -->
+        <!--layout height change 3: bkspc height -->
+        <Key
+            android:codes="@string/backspace"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyHeight="11.27%p"
+            android:keyWidth="15%p"
+            android:horizontalGap="7%p"
+            android:keyIcon="@drawable/delete"/>
+    </Row>
+
+    <!-- 22222222222222222222-->
+    <Row>
+
+        <!--comma -->
+        <Key android:keyEdgeFlags="left"
+            android:codes="42"
+            />
+
+        <!--kana matra velanti -->
+        <Key android:codes="107" android:horizontalGap="2.2%p"/>
+
+        <!--cha -->
+        <Key android:codes="6" />
+        <!--chha -->
+        <Key android:codes="7" />
+        <!--ja -->
+        <Key android:codes="8" />
+        <!--jha -->
+        <Key android:codes="9" />
+        <!--jna -->
+        <Key android:codes="10" />
+    </Row>
+
+    <!--33333333333333333333333333-->
+    <Row >
+        <!--exclamation -->
+        <Key
+            android:codes="43"
+            android:keyEdgeFlags="left"/>
+
+        <!--tta -->
+        <Key android:codes="11" android:horizontalGap="8%p"/>
+        <!--ttha -->
+        <Key android:codes="12" />
+        <!--dda -->
+        <Key android:codes="13" />
+        <!--ddha -->
+        <Key android:codes="14" />
+        <!--nna -->
+        <Key android:codes="15" />
+
+        <!--anuswar -->
+        <Key
+            android:codes="48"
+            android:keyEdgeFlags="right"
+            android:horizontalGap="10%p"
+            />
+    </Row>
+
+    <!--444444444444-->
+    <Row>
+        <!--question mark -->
+        <Key android:codes="44"
+            android:keyEdgeFlags="left"/>
+
+        <!--standalone vowels chakra a aa i ii -->
+        <Key android:codes="109" android:horizontalGap="2.2%p" />
+
+        <!--ta -->
+        <Key android:codes="16" />
+        <!--tha -->
+        <Key android:codes="17" />
+        <!--da -->
+        <Key android:codes="18" />
+        <!--dha -->
+        <Key android:codes="19" />
+        <!--na -->
+        <Key android:codes="20" />
+
+        <!--chandrabindu -->
+        <Key
+            android:codes="120"
+            android:keyEdgeFlags="right"
+            android:horizontalGap="4%p"
+            />
+    </Row>
+
+    <!--layout height change 4: vertical gap after this row (before ya-row)  -->
+    <!--555555555555555555555555555555555-->
+    <Row android:verticalGap="0.67%p">
+        <!--hindi fullstop -->
+        <Key android:codes="45"
+            android:keyEdgeFlags="left"/>
+
+        <!--pa -->
+        <Key android:codes="21" android:horizontalGap="8%p"/>
+        <!--pha -->
+        <Key android:codes="22" />
+        <!--ba -->
+        <Key android:codes="23" />
+        <!--bha -->
+        <Key android:codes="24" />
+        <!--ma -->
+        <Key android:codes="25" />
+
+        <!--a ki matra as in captain -->
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="right"
+            android:horizontalGap="10%p"
+            />
+    </Row>
+
+    <!--666666666666666666666-->
+    <Row>
+        <!--double quote -->
+        <Key android:codes="46"
+            android:keyEdgeFlags="left"
+            />
+
+        <!--ru -->
+        <Key android:codes="108" android:horizontalGap="2.2%p" />
+
+        <!--ya -->
+        <Key android:codes="26" />
+        <!--ra -->
+        <Key android:codes="27" />
+        <!--la -->
+        <Key android:codes="28" />
+        <!--va -->
+        <Key android:codes="29" />
+        <!--sha -->
+        <Key android:codes="30" />
+
+        <!--o ki matra as in doctor -->
+        <Key
+            android:codes="122"
+            android:keyEdgeFlags="right"
+            android:horizontalGap="4%p"
+            />
+    </Row>
+
+    <!--777777777777777777777777-->
+    <Row>
+        <!--single quote -->
+        <Key android:codes="47"
+            android:keyEdgeFlags="left" />
+
+        <!--ssha -->
+        <Key android:codes="31" android:horizontalGap="8%p"/>
+        <!--sa -->
+        <Key android:codes="32" />
+        <!--ha -->
+        <Key android:codes="33" />
+        <!--lla -->
+        <Key android:codes="34" />
+        <!--ksha -->
+        <Key android:codes="35" />
+
+        <!--visarga -->
+        <Key
+            android:codes="50"
+            android:keyEdgeFlags="right"
+            android:horizontalGap="10%p"
+            />
+    </Row>
+
+    <!--8888888888888888888888888888888888888-->
+    <Row>
+        <!--layout height change 5: shift height -->
+        <!--shift -->
+        <Key
+            android:codes="@string/symbols"
+            android:isSticky="true"
+            android:keyHeight="12.74%p"
+            android:keyWidth="14.6%p"
+            android:keyIcon="@drawable/shift" />
+
+        <!--jna -->
+        <Key android:codes="36"
+            />
+
+        <!--shra -->
+        <Key android:codes="37"/>
+        <!--    <Key android:codes="38"
+                android:verticalGap="1.5%p" />-->
+        <!--tra -->
+        <Key android:codes="39"/>
+
+        <!--nukta -->
+        <Key android:codes="121"/>
+        <!--rashtra chinha -->
+        <Key android:codes="52"/>
+        <!--varyacha ra -->
+        <Key android:codes="51"/>
+        <!--rafar -->
+        <Key
+            android:codes="53"
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+    <!--9999999999999999999-->
+    <!--layout height change 6: last row height -->
+    <Row   rowEdgeFlags="bottom" android:keyHeight="7.11%p">
+        <!--English -->
+        <Key
+            android:codes="@string/english"
+            android:horizontalGap="14.285%p"
+            android:keyLabel="En"
+            />
+        <!--space bar -->
+        <Key
+            android:codes="@string/space"
+            android:keyWidth="47%p"
+
+            />
+        <!--enter -->
+        <Key
+            android:codes="@string/enter"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="25%p"
+            android:keyEdgeFlags="right"
+            />
+    </Row>
+</Keyboard>

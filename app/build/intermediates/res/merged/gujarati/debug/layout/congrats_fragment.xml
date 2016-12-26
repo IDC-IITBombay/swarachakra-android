@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android.support.design="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/topView_congrats"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:paddingBottom="7sp"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:paddingTop="7sp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instruction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:gravity="left"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="55sp" />
+
+    <Button
+        android:id="@+id/congrats_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/button"
+        android:layout_below="@+id/title"
+        android:onClick="buttonClick"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+    <!--<Button
+        android:id="@+id/toggleLanguage_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/congrats_button"
+        android:layout_gravity="left"
+        android:layout_alignLeft="@+id/congrats_button"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:onClick="changeLanguage"
+        android:padding="10dp"
+        android:text="@string/menu_language"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#fff" />-->
+</RelativeLayout>
+</ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/toggleLanguage_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:onClick="changeLanguage"
+        android:src="@drawable/marathi"
+        app:layout_anchor="@+id/topView_congrats"
+        app:layout_anchorGravity="bottom|right|end"/>
+</android.support.design.widget.CoordinatorLayout>

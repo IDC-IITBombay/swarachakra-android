@@ -38,7 +38,7 @@
     <string name="marathi_settings_layout_big">मोठा</string>
     <string name="marathi_settings_layout_small">छोटा</string>
     <!-- hex -->
-    <string name="marathi_settings_layout_hex">चिरेबंदी</string>
+    <string name="marathi_settings_layout_hex"> चिरेबंदी </string>
     <string name="marathi_do_you_like">स्वरचक्र आवडलं का?</string>
     <string name="marathi_rate_us">गूगल प्ले स्टोर वर रेटिंग देऊन आपला अभिप्राय कळवा.</string>
     <string name="marathi_fb_likeus">स्वरचक्रला फेसबुकवर लाइक करा</string>

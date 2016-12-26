@@ -22,7 +22,7 @@ public class MainKeyboardView extends CustomKeyboardView {
 	public PopupWindow mChakraPopup;
 	public View mPopupParent;
 	public SwaraChakra mSwaraChakra;
-	//private KeyLogger mKeyLogger;
+//	private KeyLogger mKeyLogger;
 	private MainKeyboardActionListener mActionListener;
 	private boolean isPassword;
     private Context mContext;
@@ -91,9 +91,9 @@ public class MainKeyboardView extends CustomKeyboardView {
 		mActionListener.setSoftKeyboard(sk);
 		InputConnection mInputConnection = sk.getCurrentInputConnection();
 		mActionListener.setInputConnection(mInputConnection);
-		//mActionListener.setKeyLogger(sk.getKeyLogger());
+//		mActionListener.setKeyLogger(sk.getKeyLogger());
 
-		//mKeyLogger = sk.getKeyLogger();
+//		mKeyLogger = sk.getKeyLogger();
 		isPassword = sk.isPassword();
 
 		String[] swaras = lang.defaultChakra;
@@ -112,10 +112,10 @@ public class MainKeyboardView extends CustomKeyboardView {
 	@Override
 	public void resetInputConnection(InputConnection ic) {
 		mActionListener.setInputConnection(ic);
-		/*if (!isPassword) {
-			mKeyLogger.writeToLocalStorage();
-		}
-		mKeyLogger.extractedText="";*/
+//		if (!isPassword) {
+//			mKeyLogger.writeToLocalStorage();
+//		}
+//		mKeyLogger.extractedText="";
 	}
 
 	@Override

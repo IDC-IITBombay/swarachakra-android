@@ -186,7 +186,7 @@ public class SettingsActivity extends PreferenceActivity {
         //labels = (RelativeLayout) layout.findViewById(R.id.labels);
         rateus = (Button) layout.findViewById(R.id.rateus);
         doYouLikeTextView = (TextView) layout.findViewById(R.id.likeus);
-        tapaatap_btn = (Button) layout.findViewById(R.id.tapaatap_button);
+//        tapaatap_btn = (Button) layout.findViewById(R.id.tapaatap_button);
 
         fblikeus = (Button) layout.findViewById(R.id.fb_likeus);
         trykeyboard = (Button) layout.findViewById(R.id.tryit);
@@ -288,7 +288,7 @@ public class SettingsActivity extends PreferenceActivity {
 
         doYouLikeTextView.setText(doyoulikeustext);
         rateus.setText(rateustext);
-        tapaatap_btn.setText(tapaatap_download);
+//        tapaatap_btn.setText(tapaatap_download);
 
         layoutradioGroup.setVisibility(View.VISIBLE);
 
@@ -443,21 +443,21 @@ public class SettingsActivity extends PreferenceActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent rate = new Intent(Intent.ACTION_VIEW);
-                rate.setData(Uri.parse("https://play.google.com/store/apps/details?id=iit.android.swarachakraMarathi"));
+                rate.setData(Uri.parse("https://play.google.com/store/apps/details?id=iit.android.swarachakraGujarati"));
                 startActivity(rate);
             }
         });
 
-        tapaatap_btn.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-                Intent rate = new Intent(Intent.ACTION_VIEW);
-                rate.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.tapaatap"));
-                startActivity(rate);
-            }
-        });
+//        tapaatap_btn.setOnClickListener(new OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                // TODO Auto-generated method stub
+//                Intent rate = new Intent(Intent.ACTION_VIEW);
+//                rate.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.tapaatap"));
+//                startActivity(rate);
+//            }
+//        });
 
 
         OnClickListener changeLanguage = new OnClickListener() {

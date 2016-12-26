@@ -34,8 +34,10 @@
     <!-- Settings -->
     <string name="gujarati_menu_language">GUJ</string>
     <string name="gujarati_settings_instruction">સ્વરચક્ર કી-બોર્ડ નો આકાર​</string>
-    <string name="gujarati_settings_layout_big">નાનું</string>
-    <string name="gujarati_settings_layout_small">મોટું</string>
+    <string name="gujarati_settings_layout_small">નાનું</string>
+    <string name="gujarati_settings_layout_big">મોટું</string>
+    <string name="gujarati_tryit">પ્રયાસ કરો</string>
+    <string name="gujarati_settings_layout_hex">શક્તિશાળી</string>
     <string name="gujarati_do_you_like">શું સ્વરચક્ર તમને પસંદ આવ્યુ?</string>
     <string name="gujarati_rate_us">અમને ગુગલ પ્લેય-સ્ટોર માં રેટ આપીને તમારો અભિપ્રાય આપો.</string>
 </resources>
