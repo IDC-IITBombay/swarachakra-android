@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/marathi/debug/menu/menu_preview.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/menu/menu_preview.xml"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/marathi/debug/menu/main_activity_menu.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/menu/main_activity_menu.xml"
+    }
+]

@@ -4,24 +4,28 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/settings_layout_background.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/shape_green_rect.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/shape_green_rect.xml"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size5.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size5.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/settings_layout_background.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/settings_layout_background.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_text_cursor_material.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/shape_green_rect.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/shape_green_rect.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/bg.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/bg.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/settings_layout_text_color.xml",
@@ -32,40 +36,28 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_check_material.xml"
     },
     {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/english_key_bg.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/english_key_bg.xml"
+    },
+    {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size3_landscape.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size3_landscape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/back_checked_background.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/back_checked_background.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_dialog_material_background_dark.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/back_checked_background.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/back_checked_background.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/tcolor.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/tcolor.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size1.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size1.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size3.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size3.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size4_landscape.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size4_landscape.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_dialog_material_background_light.xml",
@@ -80,44 +72,52 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_colored_material.xml"
     },
     {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size3_landscape.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size3_landscape.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size5_landscape.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size5_landscape.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/preview_button.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/preview_button.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size2_landscape.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size2_landscape.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/setting_checked_background.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/setting_checked_background.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_ratingbar_full_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/design_fab_background.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size3.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size3.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_switch_thumb_material.xml",
@@ -126,14 +126,6 @@
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/preview_button.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/preview_button.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size4.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size4.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/back_unchecked_background.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/back_unchecked_background.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size2.xml",
@@ -148,28 +140,28 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_snackbar_background.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size1.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size1.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/english_key_bg.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/english_key_bg.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size1_landscape.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size1_landscape.xml"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/back_unchecked_background.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/back_unchecked_background.xml"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/design_snackbar_background.xml",
@@ -188,199 +180,15 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/settings_layout_text_color.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/settings_layout_text_color.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/setting_checked_background.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/setting_checked_background.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/setting_unchecked_background.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/setting_unchecked_background.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/bg.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/bg.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/shape_green_rect.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/shape_green_rect.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size5.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size5.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size1_landscape.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size1_landscape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/bg.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/bg.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_dialog_material_background_dark.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/english_key_bg.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/english_key_bg.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/key_bg.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/key_bg.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size4_landscape.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size4_landscape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/back_checked_background.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/back_checked_background.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/tcolor.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/tcolor.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size4_landscape.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size4_landscape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/design_fab_background.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_ratingbar_full_material.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size5_landscape.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size5_landscape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size5.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size5.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size2_landscape.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size2_landscape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size2_landscape.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size2_landscape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/design_fab_background.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size5_landscape.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size5_landscape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/tcolor.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/tcolor.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size1.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size1.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/back_unchecked_background.xml",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/back_unchecked_background.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_dialog_material_background_light.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size4.xml",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable/radio_size4.xml"
     },
     {
-        "merged": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/build/intermediates/res/merged/gujarati/debug/drawable/radio_size2.xml",
-        "source": "/Users/neer/GitHub/Swarachakra-Gujarati-trial1/app/src/main/res/drawable/radio_size2.xml"
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
     }
 ]

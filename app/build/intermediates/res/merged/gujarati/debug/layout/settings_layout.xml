@@ -247,7 +247,7 @@
                     android:layout_toRightOf="@+id/fb_likeus"
                     android:background="@drawable/button"
                     android:gravity="center"
-                    android:text="@string/fb_likeus"
+                    android:text="@string/gujarati_fb_likeus"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="#fff" />
 
@@ -365,7 +365,7 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android.support.design:fabSize="0"
-        android:src="@drawable/marathi"
+        android:src="@drawable/gujarati"
         app:layout_anchor="@+id/settings_relative"
         app:layout_anchorGravity="bottom|right|end"/>
 </android.support.design.widget.CoordinatorLayout>

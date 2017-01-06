@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/marathi/debug/drawable-ldpi/shift.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/marathi/res/drawable-ldpi/shift.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/marathi/debug/drawable-ldpi/ic_launcher.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/marathi/debug/drawable-ldpi/interact.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/marathi/res/drawable-ldpi/interact.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/marathi/debug/drawable-ldpi/space.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/marathi/res/drawable-ldpi/space.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/marathi/debug/drawable-ldpi/delete.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/marathi/res/drawable-ldpi/delete.png"
+    }
+]

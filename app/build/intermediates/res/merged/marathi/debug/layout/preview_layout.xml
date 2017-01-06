@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@android:color/white"
+    android:background="@drawable/english_key_preview_bg"
+    android:id="@+id/preview_text_view"
+    android:textSize="36sp"
+    android:textAlignment="center"
+    android:gravity="center"
+
+    />

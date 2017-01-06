@@ -1,4 +1,4 @@
-#Mon Dec 26 15:25:45 IST 2016
+#Fri Jan 06 00:08:26 IST 2017
 base.0=/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/instant-run_79294cf2cb74d25736e6759d54bc4703f7efab33
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -240,7 +240,7 @@ public class SettingsActivity extends PreferenceActivity {
                     languageName + "_" + "menu_language", "string",
                     getPackageName());
             language_text= getResources().getString(resId);*/
-            langButton.setImageResource(R.drawable.marathi);
+            langButton.setImageResource(R.drawable.gujarati);
             //langButton.setBackgroundColor(Color.MAGENTA);
             //langButton.setBackgroundResource(R.drawable.fab_orange);
         }else{
@@ -1154,7 +1154,7 @@ public class SettingsActivity extends PreferenceActivity {
                     languageName + "_" + "menu_language", "string",
                     getPackageName());
             languageButtonText= getResources().getString(resId);*/
-            langButton.setImageResource(R.drawable.marathi);
+            langButton.setImageResource(R.drawable.gujarati);
             //langButton.setBackgroundColor(Color.YELLOW);
             //langButton.setBackgroundResource(R.drawable.fab_orange);
         }else{

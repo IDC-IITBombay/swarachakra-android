@@ -78,7 +78,7 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android:onClick="changeLanguage"
-        android:src="@drawable/marathi"
+        android:src="@drawable/gujarati"
         app:layout_anchor="@+id/topView_congrats"
         app:layout_anchorGravity="bottom|right|end"/>
 </android.support.design.widget.CoordinatorLayout>

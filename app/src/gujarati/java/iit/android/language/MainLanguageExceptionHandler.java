@@ -49,17 +49,6 @@ public class MainLanguageExceptionHandler implements ExceptionHandler {
 //	private static final String EYELASHRA = "\u0AB0\u0ACD\u200d";
 	private static final String NUKTA = "\u0ABC";
 
-//	private static final int TRAKARCODE = 52;
-//	private static final int RAFARCODE = 53;
-//	private static final int EYELASHRACODE = 51;
-//	private static final int NUKTACODE = 121;
-
-
-	//OLD SETTINGS
-//	private static final int TRAKARCODE = 121;
-//	private static final int RAFARCODE = 52;
-//	private static final int NUKTACODE = 51;
-
 	private static final int TRAKARCODE = 52;
 	private static final int RAFARCODE = 53;
 	private static final int NUKTACODE = 121;
