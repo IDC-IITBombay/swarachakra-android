@@ -3295,6 +3295,7 @@ containing a value of this type.
         public static final int Animation_AppCompat_Dialog=0x7f090081;
         public static final int Animation_AppCompat_DropDownUp=0x7f090082;
         /**  API 11 theme customizations can go here. 
+ API 14 theme customizations can go here. 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to

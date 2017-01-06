@@ -247,7 +247,7 @@
                     android:layout_toRightOf="@+id/fb_likeus"
                     android:background="@drawable/button"
                     android:gravity="center"
-                    android:text="@string/gujarati_fb_likeus"
+                    android:text="@string/fb_likeus"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="#fff" />
 

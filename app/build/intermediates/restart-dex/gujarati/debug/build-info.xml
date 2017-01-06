@@ -5,19 +5,19 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="20003554230089"
+    timestamp="79584142018040"
     token="7663608728234601008"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="277" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="15" />
+        duration="0" />
     <task
         name="verifier"
         duration="0" />
@@ -27,7 +27,7 @@
         type="MAIN" />
 
     <build
-        timestamp="61190848836899"
+        timestamp="79584142018040"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/neer/GitHub/swarachakra-android/app/build/outputs/apk/app-gujarati-debug.apk"

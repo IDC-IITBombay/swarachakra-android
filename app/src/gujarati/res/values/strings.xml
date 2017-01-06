@@ -32,6 +32,9 @@
     <string name="gujarati_congrats_title">આભાર​</string>
     <string name="gujarati_congrats_button">સેટિંન્ગસ​</string>
     <!-- Settings -->
+
+    <string name="gujarati_rate_us">અમને ગુગલ પ્લેય-સ્ટોર માં રેટ આપીને તમારો અભિપ્રાય આપો.</string>
+    <string name="gujarati_fb_likeus">સ્વરચક્ર ને ફેસબુક પર લાઇક આપો</string>
     <string name="gujarati_menu_language">GUJ</string>
     <string name="gujarati_settings_instruction">સ્વરચક્ર કી-બોર્ડ નો આકાર​</string>
     <string name="gujarati_settings_layout_small">નાનું</string>
@@ -40,6 +43,4 @@
     <string name="gujarati_back">પાછું</string>
     <string name="gujarati_settings_layout_hex">શક્તિશાળી</string>
     <string name="gujarati_do_you_like">શું સ્વરચક્ર તમને પસંદ આવ્યુ?</string>
-    <string name="gujarati_rate_us">અમને ગુગલ પ્લેય-સ્ટોર માં રેટ આપીને તમારો અભિપ્રાય આપો.</string>
-    <string name="gujarati_fb_likeus">સ્વરચક્ર ને ફેસબુક પર લાઇક આપો</string>
 </resources>

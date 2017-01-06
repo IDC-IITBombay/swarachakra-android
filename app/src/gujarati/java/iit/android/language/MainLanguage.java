@@ -628,7 +628,7 @@ public class MainLanguage extends Language {
 
 		KeyAttr myKey50 = new KeyAttr();
 		myKey50.code = 51;
-		myKey50.label = "";//not sure--earlier varyacha ra
+		myKey50.label = "\u0AD0"; // Gujarati OM
 		myKey50.showChakra = false ;
 		myKey50.showCustomChakra = false ;
 		myKey50.customChakraLayout = new String[] {} ;
@@ -1480,8 +1480,8 @@ public class MainLanguage extends Language {
 		myKey120 .showChakra = false ;
 		myKey120.showCustomChakra = false ;
 		myKey120 .customChakraLayout = new String[] {} ;
-		myKey120.showIcon = true ;
-		myKey120 .icon = "nukta";
+		myKey120.showIcon = false ;
+		myKey120 .icon = "";
 		myKey120 .changeLayout = false ;
 		myKey120 .layout = "";
 		myKey120 .isException = false;

@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="a1fc9014fcfc6ab103e5536b7cae5ace532cf5b5">
+        sha1="1ea6bbe4c56097c948fd01bc6dcd53d91783b5c0">
         <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/instant-run-bootstrap_8781e62d990cde1aa7bfab2b6096b6fe49a309dc/classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="51ad247a9e8c98be03becc85c639e614c5b894dc">
+        sha1="598806cb2534d6258c2331427a16740f16d8fbd5">
         <dex dex="/Users/neer/GitHub/swarachakra-android/app/build/intermediates/transforms/dex/gujarati/debug/folders/1000/10/instant-run_79294cf2cb74d25736e6759d54bc4703f7efab33/classes.dex" />
     </item>
     <item

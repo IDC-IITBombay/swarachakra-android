@@ -7,7 +7,7 @@
     android:id="@+id/settings_relative"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    
+
     <TextView android:id="@+id/instruction"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,8 +16,8 @@
         android:paddingLeft="25dp"
         android:paddingRight="25dp"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp" /> 
-    
+        android:paddingBottom="10dp" />
+
     <RadioGroup
         android:id="@+id/layoutRadioGroup"
         android:layout_width="match_parent"
@@ -135,7 +135,7 @@
             android:gravity="bottom"
             android:text="@string/height5" />
     </RelativeLayout>
-    
+
     <!--<EditText android:id="@+id/preview_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
         android:layout_marginRight="16dp"
         android:layout_below="@id/layoutRadioGroup"
         android:hint="@string/preview_your_settings"/>-->
-    
+
      <TextView
         android:id="@+id/likeus"
         android:layout_width="wrap_content"
@@ -190,7 +190,7 @@
         android:text="@string/fb_likeus"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="#000" />
-    
+
     <fragment android:id="@+id/settings_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

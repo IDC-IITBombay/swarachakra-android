@@ -220,12 +220,12 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-hdpi/done.png"
     },
     {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-hdpi/paste.png",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-hdpi/paste.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png",
@@ -252,12 +252,12 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-hdpi/copy.png"
     },
     {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-hdpi/copydiasable.png",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/drawable-hdpi/copydiasable.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-hdpi/ic_action_search.png",

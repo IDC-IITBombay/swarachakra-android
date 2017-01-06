@@ -93,7 +93,7 @@
         <Key android:codes="30" />
 
         <Key
-            android:codes="49"
+            android:codes="120"
             android:keyEdgeFlags="right" />
     </Row>
 
@@ -149,7 +149,7 @@
             android:keyWidth="33.333%p"/>
 
         <Key
-            android:codes="51"/>
+            android:codes="121"/>
 
         <Key
             android:codes="52"/>

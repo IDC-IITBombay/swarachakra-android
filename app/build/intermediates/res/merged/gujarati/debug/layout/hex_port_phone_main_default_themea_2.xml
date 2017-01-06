@@ -142,12 +142,12 @@
         <!--ma -->
         <Key android:codes="25" />
 
-        <!--a ki matra as in captain -->
-       <Key
-            android:codes="49"
+        <!--visarga -->
+        <Key
+            android:codes="50"
             android:keyEdgeFlags="right"
-            android:horizontalGap="10%p"
-            />
+            android:horizontalGap="10%p" />
+
     </Row>
 
     <!--666666666666666666666-->
@@ -171,12 +171,11 @@
         <!--sha -->
         <Key android:codes="30" />
 
-        <!--o ki matra as in doctor -->
-        <Key
-            android:codes="122"
+        <!--nukta -->
+        <Key android:codes="121"
             android:keyEdgeFlags="right"
-            android:horizontalGap="4%p"
-            />
+            android:horizontalGap="4%p"/>
+
     </Row>
 
     <!--777777777777777777777777-->
@@ -196,12 +195,12 @@
         <!--ksha -->
         <Key android:codes="35" />
 
-        <!--visarga -->
+        <!--a ki matra as in captain -->
         <Key
-            android:codes="50"
+            android:codes="49"
             android:keyEdgeFlags="right"
-            android:horizontalGap="10%p"
-            />
+            android:horizontalGap="10%p" />
+
     </Row>
 
     <!--8888888888888888888888888888888888888-->
@@ -226,16 +225,21 @@
         <!--tra -->
         <Key android:codes="39"/>
 
-        <!--nukta -->
-        <Key android:codes="121"/>
+        <!--OM Gujarati -->
+        <Key android:codes="51"/>
+
         <!--rashtra chinha -->
         <Key android:codes="52"/>
-        <!--varyacha ra -->
-        <Key android:codes="51"/>
+
         <!--rafar -->
+        <Key android:codes="53" />
+
+        <!--o ki matra as in doctor -->
         <Key
-            android:codes="53"
-            android:keyEdgeFlags="right"/>
+            android:codes="122"
+            android:keyEdgeFlags="right"
+            android:horizontalGap="4%p"
+            />
     </Row>
 
     <!--9999999999999999999-->

@@ -789,7 +789,15 @@
                     "endOffset": 40221
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1667,
+                        "startColumn": 4,
+                        "startOffset": 42218,
+                        "endLine": 1678,
+                        "endColumn": 19,
+                        "endOffset": 42585
+                    }
                 }
             },
             {
@@ -802,7 +810,15 @@
                     "endOffset": 40589
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1680,
+                        "startColumn": 4,
+                        "startOffset": 42591,
+                        "endLine": 1691,
+                        "endColumn": 19,
+                        "endOffset": 42954
+                    }
                 }
             },
             {
@@ -814,7 +830,14 @@
                     "endOffset": 40644
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 54,
+                        "endOffset": 150
+                    }
                 }
             },
             {
@@ -826,7 +849,14 @@
                     "endOffset": 40701
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 43,
+                        "endColumn": 56,
+                        "endOffset": 95
+                    }
                 }
             },
             {
@@ -838,7 +868,14 @@
                     "endOffset": 40742
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 562,
+                        "endColumn": 40,
+                        "endOffset": 598
+                    }
                 }
             },
             {
@@ -850,7 +887,14 @@
                     "endOffset": 40784
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 420,
+                        "startColumn": 4,
+                        "startOffset": 10656,
+                        "endColumn": 41,
+                        "endOffset": 10693
+                    }
                 }
             },
             {
@@ -862,7 +906,14 @@
                     "endOffset": 40826
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 464,
+                        "startColumn": 4,
+                        "startOffset": 11756,
+                        "endColumn": 41,
+                        "endOffset": 11793
+                    }
                 }
             },
             {
@@ -874,7 +925,14 @@
                     "endOffset": 40868
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 509,
+                        "startColumn": 4,
+                        "startOffset": 12857,
+                        "endColumn": 41,
+                        "endOffset": 12894
+                    }
                 }
             },
             {
@@ -886,7 +944,14 @@
                     "endOffset": 40910
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 557,
+                        "startColumn": 4,
+                        "startOffset": 14137,
+                        "endColumn": 41,
+                        "endOffset": 14174
+                    }
                 }
             },
             {
@@ -898,7 +963,14 @@
                     "endOffset": 40952
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 602,
+                        "startColumn": 4,
+                        "startOffset": 15238,
+                        "endColumn": 41,
+                        "endOffset": 15275
+                    }
                 }
             },
             {
@@ -910,7 +982,14 @@
                     "endOffset": 40994
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 646,
+                        "startColumn": 4,
+                        "startOffset": 16338,
+                        "endColumn": 41,
+                        "endOffset": 16375
+                    }
                 }
             },
             {
@@ -922,7 +1001,14 @@
                     "endOffset": 41036
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 690,
+                        "startColumn": 4,
+                        "startOffset": 17438,
+                        "endColumn": 41,
+                        "endOffset": 17475
+                    }
                 }
             },
             {
@@ -934,7 +1020,14 @@
                     "endOffset": 41078
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 734,
+                        "startColumn": 4,
+                        "startOffset": 18564,
+                        "endColumn": 41,
+                        "endOffset": 18601
+                    }
                 }
             },
             {
@@ -946,7 +1039,14 @@
                     "endOffset": 41120
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 778,
+                        "startColumn": 4,
+                        "startOffset": 19690,
+                        "endColumn": 41,
+                        "endOffset": 19727
+                    }
                 }
             },
             {
@@ -958,7 +1058,14 @@
                     "endOffset": 41162
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 822,
+                        "startColumn": 4,
+                        "startOffset": 20790,
+                        "endColumn": 41,
+                        "endOffset": 20827
+                    }
                 }
             },
             {
@@ -970,7 +1077,14 @@
                     "endOffset": 41203
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 1725,
+                        "endColumn": 40,
+                        "endOffset": 1761
+                    }
                 }
             },
             {
@@ -982,7 +1096,14 @@
                     "endOffset": 41245
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 866,
+                        "startColumn": 4,
+                        "startOffset": 21916,
+                        "endColumn": 41,
+                        "endOffset": 21953
+                    }
                 }
             },
             {
@@ -994,7 +1115,14 @@
                     "endOffset": 41287
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 910,
+                        "startColumn": 4,
+                        "startOffset": 23042,
+                        "endColumn": 41,
+                        "endOffset": 23079
+                    }
                 }
             },
             {
@@ -1006,7 +1134,14 @@
                     "endOffset": 41329
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 954,
+                        "startColumn": 4,
+                        "startOffset": 24142,
+                        "endColumn": 41,
+                        "endOffset": 24179
+                    }
                 }
             },
             {
@@ -1018,7 +1153,14 @@
                     "endOffset": 41371
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 998,
+                        "startColumn": 4,
+                        "startOffset": 25268,
+                        "endColumn": 41,
+                        "endOffset": 25305
+                    }
                 }
             },
             {
@@ -1030,7 +1172,14 @@
                     "endOffset": 41413
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1042,
+                        "startColumn": 4,
+                        "startOffset": 26368,
+                        "endColumn": 41,
+                        "endOffset": 26405
+                    }
                 }
             },
             {
@@ -1042,7 +1191,14 @@
                     "endOffset": 41455
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1086,
+                        "startColumn": 4,
+                        "startOffset": 27494,
+                        "endColumn": 41,
+                        "endOffset": 27531
+                    }
                 }
             },
             {
@@ -1054,7 +1210,14 @@
                     "endOffset": 41497
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1130,
+                        "startColumn": 4,
+                        "startOffset": 28594,
+                        "endColumn": 41,
+                        "endOffset": 28631
+                    }
                 }
             },
             {
@@ -1066,7 +1229,14 @@
                     "endOffset": 41539
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1174,
+                        "startColumn": 4,
+                        "startOffset": 29720,
+                        "endColumn": 41,
+                        "endOffset": 29757
+                    }
                 }
             },
             {
@@ -1078,7 +1248,14 @@
                     "endOffset": 41581
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1218,
+                        "startColumn": 4,
+                        "startOffset": 30846,
+                        "endColumn": 41,
+                        "endOffset": 30883
+                    }
                 }
             },
             {
@@ -1090,7 +1267,14 @@
                     "endOffset": 41623
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1262,
+                        "startColumn": 4,
+                        "startOffset": 31946,
+                        "endColumn": 41,
+                        "endOffset": 31983
+                    }
                 }
             },
             {
@@ -1102,7 +1286,14 @@
                     "endOffset": 41664
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 2869,
+                        "endColumn": 40,
+                        "endOffset": 2905
+                    }
                 }
             },
             {
@@ -1114,7 +1305,14 @@
                     "endOffset": 41706
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1309,
+                        "startColumn": 4,
+                        "startOffset": 33090,
+                        "endColumn": 41,
+                        "endOffset": 33127
+                    }
                 }
             },
             {
@@ -1126,7 +1324,14 @@
                     "endOffset": 41748
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1353,
+                        "startColumn": 4,
+                        "startOffset": 34190,
+                        "endColumn": 41,
+                        "endOffset": 34227
+                    }
                 }
             },
             {
@@ -1138,7 +1343,14 @@
                     "endOffset": 41790
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1397,
+                        "startColumn": 4,
+                        "startOffset": 35290,
+                        "endColumn": 41,
+                        "endOffset": 35327
+                    }
                 }
             },
             {
@@ -1150,7 +1362,14 @@
                     "endOffset": 41832
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1441,
+                        "startColumn": 4,
+                        "startOffset": 36416,
+                        "endColumn": 41,
+                        "endOffset": 36453
+                    }
                 }
             },
             {
@@ -1162,7 +1381,14 @@
                     "endOffset": 41874
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1485,
+                        "startColumn": 4,
+                        "startOffset": 37542,
+                        "endColumn": 41,
+                        "endOffset": 37579
+                    }
                 }
             },
             {
@@ -1174,7 +1400,14 @@
                     "endOffset": 41916
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1577,
+                        "startColumn": 4,
+                        "startOffset": 39948,
+                        "endColumn": 41,
+                        "endOffset": 39985
+                    }
                 }
             },
             {
@@ -1186,7 +1419,14 @@
                     "endOffset": 41958
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1621,
+                        "startColumn": 4,
+                        "startOffset": 41074,
+                        "endColumn": 41,
+                        "endOffset": 41111
+                    }
                 }
             },
             {
@@ -1198,7 +1438,14 @@
                     "endOffset": 42000
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1529,
+                        "startColumn": 4,
+                        "startOffset": 38668,
+                        "endColumn": 41,
+                        "endOffset": 38705
+                    }
                 }
             },
             {
@@ -1210,7 +1457,14 @@
                     "endOffset": 42041
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 4006,
+                        "endColumn": 40,
+                        "endOffset": 4042
+                    }
                 }
             },
             {
@@ -1222,7 +1476,14 @@
                     "endOffset": 42082
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 5116,
+                        "endColumn": 40,
+                        "endOffset": 5152
+                    }
                 }
             },
             {
@@ -1234,7 +1495,14 @@
                     "endOffset": 42123
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 6226,
+                        "endColumn": 40,
+                        "endOffset": 6262
+                    }
                 }
             },
             {
@@ -1246,7 +1514,14 @@
                     "endOffset": 42164
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 7336,
+                        "endColumn": 40,
+                        "endOffset": 7372
+                    }
                 }
             },
             {
@@ -1258,7 +1533,14 @@
                     "endOffset": 42205
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 8460,
+                        "endColumn": 40,
+                        "endOffset": 8496
+                    }
                 }
             },
             {
@@ -1270,7 +1552,14 @@
                     "endOffset": 42246
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 376,
+                        "startColumn": 4,
+                        "startOffset": 9558,
+                        "endColumn": 40,
+                        "endOffset": 9594
+                    }
                 }
             },
             {
@@ -1282,7 +1571,14 @@
                     "endOffset": 42301
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 54,
+                        "endOffset": 290
+                    }
                 }
             },
             {
@@ -1294,7 +1590,14 @@
                     "endOffset": 42358
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 56,
+                        "endOffset": 235
+                    }
                 }
             },
             {
@@ -1306,7 +1609,14 @@
                     "endOffset": 42406
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 388,
+                        "endColumn": 47,
+                        "endOffset": 431
+                    }
                 }
             },
             {
@@ -1318,7 +1628,14 @@
                     "endOffset": 42454
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 47,
+                        "endOffset": 383
+                    }
                 }
             },
             {
@@ -1330,7 +1647,14 @@
                     "endOffset": 42502
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 487,
+                        "endColumn": 47,
+                        "endOffset": 530
+                    }
                 }
             },
             {
@@ -1342,7 +1666,14 @@
                     "endOffset": 42552
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 437,
+                        "endColumn": 49,
+                        "endOffset": 482
+                    }
                 }
             },
             {
@@ -1354,7 +1685,14 @@
                     "endOffset": 42603
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1700,
+                        "startColumn": 4,
+                        "startOffset": 43323,
+                        "endColumn": 50,
+                        "endOffset": 43369
+                    }
                 }
             },
             {
@@ -1366,7 +1704,14 @@
                     "endOffset": 42656
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1699,
+                        "startColumn": 4,
+                        "startOffset": 43270,
+                        "endColumn": 52,
+                        "endOffset": 43318
+                    }
                 }
             },
             {
@@ -1378,7 +1723,14 @@
                     "endOffset": 42707
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1702,
+                        "startColumn": 4,
+                        "startOffset": 43427,
+                        "endColumn": 50,
+                        "endOffset": 43473
+                    }
                 }
             },
             {
@@ -1390,7 +1742,14 @@
                     "endOffset": 42760
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1701,
+                        "startColumn": 4,
+                        "startOffset": 43374,
+                        "endColumn": 52,
+                        "endOffset": 43422
+                    }
                 }
             },
             {
@@ -1402,7 +1761,14 @@
                     "endOffset": 42811
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1704,
+                        "startColumn": 4,
+                        "startOffset": 43531,
+                        "endColumn": 50,
+                        "endOffset": 43577
+                    }
                 }
             },
             {
@@ -1414,7 +1780,14 @@
                     "endOffset": 42864
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1703,
+                        "startColumn": 4,
+                        "startOffset": 43478,
+                        "endColumn": 52,
+                        "endOffset": 43526
+                    }
                 }
             },
             {
@@ -1426,7 +1799,14 @@
                     "endOffset": 42915
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1706,
+                        "startColumn": 4,
+                        "startOffset": 43635,
+                        "endColumn": 50,
+                        "endOffset": 43681
+                    }
                 }
             },
             {
@@ -1438,7 +1818,14 @@
                     "endOffset": 42968
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1705,
+                        "startColumn": 4,
+                        "startOffset": 43582,
+                        "endColumn": 52,
+                        "endOffset": 43630
+                    }
                 }
             },
             {
@@ -1450,7 +1837,14 @@
                     "endOffset": 43019
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1708,
+                        "startColumn": 4,
+                        "startOffset": 43739,
+                        "endColumn": 50,
+                        "endOffset": 43785
+                    }
                 }
             },
             {
@@ -1462,7 +1856,14 @@
                     "endOffset": 43072
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1707,
+                        "startColumn": 4,
+                        "startOffset": 43686,
+                        "endColumn": 52,
+                        "endOffset": 43734
+                    }
                 }
             },
             {
@@ -1474,7 +1875,14 @@
                     "endOffset": 43123
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1710,
+                        "startColumn": 4,
+                        "startOffset": 43843,
+                        "endColumn": 50,
+                        "endOffset": 43889
+                    }
                 }
             },
             {
@@ -1486,7 +1894,14 @@
                     "endOffset": 43176
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1709,
+                        "startColumn": 4,
+                        "startOffset": 43790,
+                        "endColumn": 52,
+                        "endOffset": 43838
+                    }
                 }
             },
             {
@@ -1498,7 +1913,14 @@
                     "endOffset": 43227
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1712,
+                        "startColumn": 4,
+                        "startOffset": 43947,
+                        "endColumn": 50,
+                        "endOffset": 43993
+                    }
                 }
             },
             {
@@ -1510,7 +1932,14 @@
                     "endOffset": 43280
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1711,
+                        "startColumn": 4,
+                        "startOffset": 43894,
+                        "endColumn": 52,
+                        "endOffset": 43942
+                    }
                 }
             },
             {
@@ -1522,7 +1951,14 @@
                     "endOffset": 43331
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1714,
+                        "startColumn": 4,
+                        "startOffset": 44051,
+                        "endColumn": 50,
+                        "endOffset": 44097
+                    }
                 }
             },
             {
@@ -1534,7 +1970,14 @@
                     "endOffset": 43384
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1713,
+                        "startColumn": 4,
+                        "startOffset": 43998,
+                        "endColumn": 52,
+                        "endOffset": 44046
+                    }
                 }
             },
             {
@@ -1546,7 +1989,14 @@
                     "endOffset": 43442
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1694,
+                        "startColumn": 4,
+                        "startOffset": 43020,
+                        "endColumn": 57,
+                        "endOffset": 43073
+                    }
                 }
             },
             {
@@ -1558,7 +2008,14 @@
                     "endOffset": 43502
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1693,
+                        "startColumn": 4,
+                        "startOffset": 42960,
+                        "endColumn": 59,
+                        "endOffset": 43015
+                    }
                 }
             },
             {
@@ -1570,7 +2027,14 @@
                     "endOffset": 43560
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1696,
+                        "startColumn": 4,
+                        "startOffset": 43138,
+                        "endColumn": 57,
+                        "endOffset": 43191
+                    }
                 }
             },
             {
@@ -1582,7 +2046,14 @@
                     "endOffset": 43620
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/character_set.xml",
+                    "position": {
+                        "startLine": 1695,
+                        "startColumn": 4,
+                        "startOffset": 43078,
+                        "endColumn": 59,
+                        "endOffset": 43133
+                    }
                 }
             },
             {
@@ -1592,134 +2063,216 @@
                     "startOffset": 43625,
                     "endLine": 1694,
                     "endColumn": 12,
-                    "endOffset": 43722
+                    "endOffset": 43771
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/styles.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 220,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 366
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1695,
                     "startColumn": 4,
-                    "startOffset": 43727,
+                    "startOffset": 43776,
                     "endLine": 1699,
                     "endColumn": 12,
-                    "endOffset": 43998
+                    "endOffset": 44047
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 239,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 510
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1700,
                     "startColumn": 4,
-                    "startOffset": 44003,
+                    "startOffset": 44052,
                     "endColumn": 70,
-                    "endOffset": 44069
+                    "endOffset": 44118
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 694,
+                        "endColumn": 70,
+                        "endOffset": 760
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1701,
                     "startColumn": 4,
-                    "startOffset": 44074,
+                    "startOffset": 44123,
                     "endColumn": 82,
-                    "endOffset": 44152
+                    "endOffset": 44201
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 765,
+                        "endColumn": 82,
+                        "endOffset": 843
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1702,
                     "startColumn": 4,
-                    "startOffset": 44157,
+                    "startOffset": 44206,
                     "endLine": 1707,
                     "endColumn": 12,
-                    "endOffset": 44562
+                    "endOffset": 44611
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 848,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 1253
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1708,
                     "startColumn": 4,
-                    "startOffset": 44567,
+                    "startOffset": 44616,
                     "endLine": 1713,
                     "endColumn": 12,
-                    "endOffset": 44984
+                    "endOffset": 45033
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1258,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1675
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1714,
                     "startColumn": 4,
-                    "startOffset": 44989,
+                    "startOffset": 45038,
                     "endColumn": 119,
-                    "endOffset": 45104
+                    "endOffset": 45153
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1854,
+                        "endColumn": 119,
+                        "endOffset": 1969
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1715,
                     "startColumn": 4,
-                    "startOffset": 45109,
+                    "startOffset": 45158,
                     "endColumn": 62,
-                    "endOffset": 45167
+                    "endOffset": 45216
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1974,
+                        "endColumn": 62,
+                        "endOffset": 2032
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1716,
                     "startColumn": 4,
-                    "startOffset": 45172,
+                    "startOffset": 45221,
                     "endLine": 1718,
                     "endColumn": 12,
-                    "endOffset": 45321
+                    "endOffset": 45370
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2037,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2186
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1719,
                     "startColumn": 4,
-                    "startOffset": 45326,
+                    "startOffset": 45375,
                     "endColumn": 62,
-                    "endOffset": 45384
+                    "endOffset": 45433
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2191,
+                        "endColumn": 62,
+                        "endOffset": 2249
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 1720,
                     "startColumn": 4,
-                    "startOffset": 45389,
+                    "startOffset": 45438,
                     "endColumn": 131,
-                    "endOffset": 45516
+                    "endOffset": 45565
                 },
                 "from": {
-                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml"
+                    "file": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v14/values-v14.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2254,
+                        "endColumn": 131,
+                        "endOffset": 2381
+                    }
                 }
             }
         ]

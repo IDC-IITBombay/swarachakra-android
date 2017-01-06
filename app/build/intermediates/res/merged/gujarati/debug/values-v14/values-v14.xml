@@ -1691,7 +1691,7 @@
     <string name="vowel_modifier_2_end">"\u0AF9"</string>
     <string name="vowel_modifier_2_start">"\u0AF0"</string>
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        
+        <!-- API 14 theme customizations can go here. -->
     </style>
     <style name="Base.TextAppearance.AppCompat.Button">
         <item name="android:textSize">@dimen/abc_text_size_button_material</item>

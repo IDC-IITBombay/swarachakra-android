@@ -56,12 +56,12 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/ic_action_search.png"
     },
     {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/shift_active.png",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/shift_active.png"
-    },
-    {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_list_pressed_holo_dark.9.png",
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/shift_active.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/shift_active.png"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/cut_bg.png",
@@ -360,16 +360,16 @@
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/landscape.png",
+        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/landscape.png"
+    },
+    {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/indian_portrait_background.png",
         "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/indian_portrait_background.png"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png",
         "source": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/landscape.png",
-        "source": "/Users/neer/GitHub/swarachakra-android/app/src/gujarati/res/drawable-xhdpi/landscape.png"
     },
     {
         "merged": "/Users/neer/GitHub/swarachakra-android/app/build/intermediates/res/merged/gujarati/debug/drawable-xhdpi/search.png",
