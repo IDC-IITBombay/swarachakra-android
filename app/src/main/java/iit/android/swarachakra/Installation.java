@@ -10,6 +10,8 @@ import android.content.Context;
 
 public class Installation {
     private static  String sID = null;
+
+    //TODO: Needs generalisation
     private static final String INSTALLATION = "INSTALLATIONMR";
 
     public synchronized static String id(Context context) {

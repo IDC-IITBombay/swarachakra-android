@@ -40,9 +40,10 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
-
 import java.util.List;
 
+import iit.android.hotspot.HotspotManagerActivity;
+import iit.android.hotspot.HotspotManagerService;
 import iit.android.swarachakra.R;
 
 public class SettingsActivity extends PreferenceActivity {
@@ -88,7 +89,15 @@ public class SettingsActivity extends PreferenceActivity {
     private boolean inEnglish = false;
     private CoordinatorLayout layout;
     private Button rateus, fblikeus, trykeyboard,fblike, tapaatap_btn;
-    private TextView doYouLikeTextView;
+    private TextView doYouLikeTextView, downloadTapaatap;
+
+    //BT
+    private Button back, remoteKeyboard,typeRemote;
+    public static boolean ifremote=false;
+    public static boolean ifremotekeyboard=false;
+    private TextView remoteTextView;
+    private Button fromHere, toHere;
+
 
     //hex
     public static int readPhoneSize(Context context) {
@@ -186,11 +195,32 @@ public class SettingsActivity extends PreferenceActivity {
         //labels = (RelativeLayout) layout.findViewById(R.id.labels);
         rateus = (Button) layout.findViewById(R.id.rateus);
         doYouLikeTextView = (TextView) layout.findViewById(R.id.likeus);
+        downloadTapaatap = (TextView) layout.findViewById(R.id.likeustapaatap);
         tapaatap_btn = (Button) layout.findViewById(R.id.tapaatap_button);
 
-        fblikeus = (Button) layout.findViewById(R.id.fb_likeus);
+        fblikeus = (Button) layout.findViewById(R.id.fb_likeus_tv2);
         trykeyboard = (Button) layout.findViewById(R.id.tryit);
-        showKBSize = (TextView) layout.findViewById(R.id.showKBSize);
+        //showKBSize = (TextView) layout.findViewById(R.id.showKBSize);
+
+        remoteTextView = (TextView) layout.findViewById(R.id.remotemode);
+        fromHere = (Button) layout.findViewById(R.id.remotekeyboard);
+        toHere = (Button) layout.findViewById(R.id.typeremote);
+
+
+        //TODO: generalise this
+        if(getResources().getString(R.string.language_name).compareTo("marathi")!= 0){
+
+            tapaatap_btn.setVisibility(View.GONE);
+            /*Button tapaatap_logo = (Button) layout.findViewById(R.id.tapaatap_logo);
+            tapaatap_logo.setVisibility(View.GONE);*/
+            Log.d("dbgm","Not marathi: "+getResources().getString(R.string.language_name));
+
+        }else{
+            tapaatap_btn.setVisibility(View.VISIBLE);
+            /*Button tapaatap_logo = (Button) layout.findViewById(R.id.tapaatap_logo);
+            tapaatap_logo.setVisibility(View.VISIBLE);*/
+            Log.d("dbgm","Marathi");
+        }
 
         params = new RelativeLayout.LayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
@@ -240,7 +270,7 @@ public class SettingsActivity extends PreferenceActivity {
                     languageName + "_" + "menu_language", "string",
                     getPackageName());
             language_text= getResources().getString(resId);*/
-            langButton.setImageResource(R.drawable.marathi);
+            langButton.setImageResource(R.drawable.language);
             //langButton.setBackgroundColor(Color.MAGENTA);
             //langButton.setBackgroundResource(R.drawable.fab_orange);
         }else{
@@ -287,8 +317,14 @@ public class SettingsActivity extends PreferenceActivity {
         String tapaatap_download = getStringResourceByName("tapaatap_download");
 
         doYouLikeTextView.setText(doyoulikeustext);
+        downloadTapaatap.setText(getStringResourceByName("tapaatap_label"));
         rateus.setText(rateustext);
         tapaatap_btn.setText(tapaatap_download);
+
+        String remoteLabel = getStringResourceByName("remote_mode_label");
+        remoteTextView.setText(remoteLabel);
+        fromHere.setText(getStringResourceByName("remoteKB"));
+        toHere.setText(getStringResourceByName("inputdevice"));
 
         layoutradioGroup.setVisibility(View.VISIBLE);
 
@@ -443,7 +479,8 @@ public class SettingsActivity extends PreferenceActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent rate = new Intent(Intent.ACTION_VIEW);
-                rate.setData(Uri.parse("https://play.google.com/store/apps/details?id=iit.android.swarachakraMarathi"));
+                //Log.d("swc","package name:"+getPackageName());
+                rate.setData(Uri.parse("https://play.google.com/store/apps/details?id="+getPackageName()));
                 startActivity(rate);
             }
         });
@@ -532,6 +569,52 @@ public class SettingsActivity extends PreferenceActivity {
             }
         });
 
+        //BT
+        remoteKeyboard = (Button) findViewById(R.id.remotekeyboard);
+        typeRemote=(Button) findViewById(R.id.typeremote);
+
+        remoteKeyboard.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // TODO Auto-generated method stub
+                try {
+                    Log.d("dbgm", "Remote KB");
+                    //layoutradioGroup.setVisibility(View.VISIBLE);
+                    Intent i = new Intent(getApplicationContext(), HotspotManagerActivity.class);
+                    ifremote=false;
+                    ifremotekeyboard=true;
+                    startActivity(i);
+
+                } catch (Exception e) {
+                    Log.d("dbgm", "Remote KB exceptioned");
+                    e.printStackTrace();
+
+                }
+            }
+        });
+        typeRemote.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // TODO Auto-generated method stub
+                try {
+                    Log.d("dbgm", "Remote Input device");
+                    //layoutradioGroup.setVisibility(View.VISIBLE);
+                    ifremote=true;
+                    ifremotekeyboard=false;
+                    Intent i = new Intent(getApplicationContext(), HotspotManagerActivity.class);
+                    startActivity(i);
+
+                } catch (Exception e) {
+                    Log.d("dbgm", "Remote Input device exceptioned");
+                    e.printStackTrace();
+
+                }
+            }
+        });
         OnCheckedChangeListener radioGroupOnCheckedChangeListener = new OnCheckedChangeListener() {
 
             @Override
@@ -1143,8 +1226,17 @@ public class SettingsActivity extends PreferenceActivity {
         String rateustext = getStringResourceByName("rate_us");
         String tapaatap_down = getStringResourceByName("tapaatap_download");
         doYouLikeTextView.setText(doyoulikeustext);
+        downloadTapaatap.setText(getStringResourceByName("tapaatap_label"));
         rateus.setText(rateustext);
         tapaatap_btn.setText(tapaatap_down);
+
+        remoteTextView = (TextView) layout.findViewById(R.id.remotemode);
+        fromHere = (Button) layout.findViewById(R.id.remotekeyboard);
+        toHere = (Button) layout.findViewById(R.id.typeremote);
+
+        remoteTextView.setText(getStringResourceByName("remote_mode_label"));
+        fromHere.setText(getStringResourceByName("remoteKB"));
+        toHere.setText(getStringResourceByName("inputdevice"));
 
         if(inEnglish) {
             /*//m:
@@ -1154,7 +1246,7 @@ public class SettingsActivity extends PreferenceActivity {
                     languageName + "_" + "menu_language", "string",
                     getPackageName());
             languageButtonText= getResources().getString(resId);*/
-            langButton.setImageResource(R.drawable.marathi);
+            langButton.setImageResource(R.drawable.language);
             //langButton.setBackgroundColor(Color.YELLOW);
             //langButton.setBackgroundResource(R.drawable.fab_orange);
         }else{

@@ -236,9 +236,13 @@
             android:codes="@string/english"
             android:keyLabel="En" />
 
+        <Key android:codes="@string/remotekeyboard"
+            android:keyIcon="@drawable/ic_settings_white_24dp"
+            />
+
         <Key
             android:codes="@string/space"
-            android:keyWidth="40%p" />
+            android:keyWidth="33.33%p" />
 
         <Key android:codes="121" />
 

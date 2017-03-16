@@ -385,6 +385,8 @@ public class SwaraChakra extends View {
 	}
 
 	public boolean isHalant(){
+
+		Log.d("flow","in IsHalant()");
 		boolean thisIsHalant = !currentKey.showCustomChakra;
 		return (arc == 0) && halantExists && thisIsHalant;
 	}

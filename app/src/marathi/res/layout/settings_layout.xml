@@ -27,7 +27,8 @@
             android:paddingLeft="25dp"
             android:paddingRight="25dp"
             android:paddingTop="10dp"
-            android:textSize="20sp" />
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
 
         <RadioGroup
             android:id="@+id/layoutRadioGroup"
@@ -86,6 +87,7 @@
             android:layout_below="@+id/layoutRadioGroup">-->
 
             <RelativeLayout
+                android:id="@+id/choosesize"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_alignLeft="@+id/layoutRadioGroup"
@@ -172,8 +174,6 @@
                         android:visibility="visible" />
 
                 </RadioGroup>
-
-
                 <Button
                     android:id="@+id/tryit"
                     android:layout_width="match_parent"
@@ -186,20 +186,191 @@
                     android:text="@string/tryit"
                     android:textColor="#fff" />
 
+                <View
+                    android:id="@+id/divider1"
+                    android:layout_width="wrap_content"
+                    android:layout_alignLeft="@id/tryit"
+                    android:layout_alignRight="@+id/tryit"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tryit"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/divider_color"/>
+
+                <TextView
+                    android:id="@+id/remotemode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/divider1"
+                    android:layout_marginTop="5dp"
+                    android:gravity="top"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/remote_mode_label"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/remotemodeIcon"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/remotemode"
+                    android:layout_alignLeft="@id/tryit"
+                    android:layout_marginRight="20dp"
+                      android:src="@drawable/remoteicon2"
+
+                     />
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    android:layout_below="@+id/remotemodeIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tryit"
+                    android:layout_alignRight="@+id/tryit"
+                    android:orientation="horizontal"
+                    android:gravity="bottom"
+                    android:layout_marginTop="5dp"
+                    >
+                <!--<Button
+                    android:id="@+id/remoteKBIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="46dp"
+                    android:layout_below="@+id/remotemodeIcon"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/remotekb48"
+/>-->
+                <Button
+                    android:id="@+id/remotekeyboard"
+                    android:layout_below="@+id/remotemodeIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button"
+                    android:textAppearance="?android:attr/textAllCaps"
+                    android:textColor="#fff"
+                    android:text="@string/remoteKB"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/remotekb48"
+                    android:paddingLeft="20dp"
+                    android:foregroundGravity="left"
+                    />
+                </LinearLayout>
+               <LinearLayout
+                   android:id="@+id/ll2"
+                   android:layout_below="@+id/ll1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignLeft="@+id/tryit"
+                   android:layout_alignRight="@+id/tryit"
+                   android:orientation="horizontal"
+                   android:gravity="top"
+                   android:layout_marginTop="10dp"
+                   >
+                <!--<Button
+                    android:id="@+id/inputDeviceIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="46dp"
+                    android:layout_below="@+id/remotekeyboard"
+                    android:layout_toLeftOf="@+id/typeremote"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/remotedevice48"
+/>-->
+                <Button
+                    android:id="@+id/typeremote"
+                    android:layout_below="@+id/remotekeyboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tryit"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/button"
+                    android:textAppearance="?android:attr/textAllCaps"
+                    android:textColor="#fff"
+                    android:text="@string/inputdevice"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/remotedevice48"
+                    android:paddingLeft="20dp"
+                    android:foregroundGravity="left"
+                    />
+               </LinearLayout>
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="wrap_content"
+                    android:layout_alignLeft="@id/tryit"
+                    android:layout_alignRight="@+id/tryit"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/ll2"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/divider_color" />
+
+                <TextView
+                    android:id="@+id/likeustapaatap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/divider2"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/marathi_tapaatap_label"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+
+                <!--<Button
+                    android:id="@+id/tapaatap_logo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/likeustapaatap"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/tapaatap_logo"
+                    android:gravity="center_horizontal" />-->
+
+                <Button
+                    android:id="@+id/tapaatap_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignRight="@+id/tryit"
+                    android:layout_below="@+id/likeustapaatap"
+
+                    android:background="@drawable/button"
+
+                    android:text="@string/tapaatap_download"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#fff"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:layout_alignLeft="@+id/tryit"
+                    android:drawableLeft="@drawable/tapaatap_logo72"
+                    android:paddingLeft="20dp"
+                    android:foregroundGravity="left"
+                    />
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="wrap_content"
+                    android:layout_alignLeft="@id/tryit"
+                    android:layout_alignRight="@+id/tryit"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tapaatap_button"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/divider_color" />
                 <TextView
                     android:id="@+id/likeus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/tryit"
-                    android:layout_marginTop="50dp"
+                    android:layout_below="@+id/divider3"
+                    android:layout_marginTop="5dp"
                     android:gravity="center_horizontal"
                     android:paddingBottom="10dp"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:text="@string/do_you_like"
-                    android:textSize="20sp" />
-
-                <Button
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+               <!-- <Button
                     android:id="@+id/play_likeus"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
@@ -208,24 +379,31 @@
                     android:layout_marginRight="3dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/playlogo"
-                    android:gravity="center_horizontal" />
+                    android:gravity="center_horizontal"
+
+                    />-->
 
                 <Button
                     android:id="@+id/rateus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/play_likeus"
+
                     android:layout_alignRight="@+id/tryit"
-                    android:layout_alignTop="@+id/play_likeus"
+                    android:layout_alignLeft="@+id/tryit"
+
                     android:layout_below="@+id/likeus"
-                    android:layout_toRightOf="@+id/play_likeus"
+
                     android:background="@drawable/button"
-                    android:gravity="center_horizontal"
                     android:text="@string/rate_us"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"
+                    android:drawableLeft="@drawable/playlogo72"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:foregroundGravity="left"
+                    />
 
-                <Button
+                <!--<Button
                     android:id="@+id/fb_likeus"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
@@ -234,57 +412,35 @@
                     android:layout_marginRight="3dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/fblogo"
-                    android:gravity="center_horizontal" />
+                    android:gravity="center_horizontal" />-->
 
                 <Button
                     android:id="@+id/fb_likeus_tv2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/fb_likeus"
-                    android:layout_alignBottom="@+id/fb_likeus"
+
                     android:layout_alignRight="@+id/tryit"
+                    android:layout_alignLeft="@+id/tryit"
                     android:layout_below="@+id/rateus"
-                    android:layout_toRightOf="@+id/fb_likeus"
+
                     android:background="@drawable/button"
-                    android:gravity="center"
+
                     android:text="@string/fb_likeus"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#fff" />
-
-                <Button
-                    android:id="@+id/tapaatap_logo"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_below="@+id/fb_likeus"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="3dp"
+                    android:textColor="#fff"
+                    android:drawableLeft="@drawable/fblogo72"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="100dp"
-                    android:background="@drawable/tapaatap_logo"
-                    android:gravity="center_horizontal" />
+                    android:paddingLeft="20dp"
+                    android:foregroundGravity="left"
+                    />
 
-                <Button
-                    android:id="@+id/tapaatap_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/tapaatap_logo"
-                    android:layout_alignBottom="@+id/tapaatap_logo"
-                    android:layout_alignRight="@+id/tryit"
-                    android:layout_below="@+id/fb_likeus_tv2"
-                    android:layout_toRightOf="@+id/tapaatap_logo"
-                    android:background="@drawable/button"
-                    android:gravity="center"
-                    android:text="@string/tapaatap_download"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#fff" />
 
                 <fragment
                     android:id="@+id/settings_fragment"
                     android:name="iit.android.settings.UserSettings"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_above="@+id/rateus"
-                    android:layout_below="@+id/fb_likeus_tv2" />
+                    android:layout_below="@+id/fb_likeus_tv2"/>
 
 
                 <!--<RelativeLayout
@@ -326,7 +482,7 @@
             </RelativeLayout>
        <!-- </ScrollView>-->
 
-        <TextView
+       <!-- <TextView
             android:id="@+id/showKBSize"
             android:layout_width="match_parent"
             android:layout_height="400dp"
@@ -339,7 +495,7 @@
             android:visibility="gone"
             android:animateLayoutChanges="true"
             android:background="@drawable/hex_port_phone_main_default_themea"
-            android:gravity="bottom" />
+            android:gravity="bottom" />-->
         <!--<Button
             android:id="@+id/fab"
             android:layout_width="wrap_content"
@@ -365,7 +521,7 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android.support.design:fabSize="0"
-        android:src="@drawable/marathi"
+        android:src="@drawable/language"
         app:layout_anchor="@+id/settings_relative"
         app:layout_anchorGravity="bottom|right|end"/>
 </android.support.design.widget.CoordinatorLayout>

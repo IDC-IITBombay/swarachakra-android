@@ -32,7 +32,7 @@ public class CongratsFragment extends Fragment {
 			resId = getResources().getIdentifier(
 					languageName + "_" + "menu_language", "string",
 					mMainActivity.getPackageName());*/
-			langButton.setImageResource(R.drawable.marathi);
+			langButton.setImageResource(R.drawable.language);
 		}else{
 			/*resId = getResources().getIdentifier(
 					"menu_language", "string",

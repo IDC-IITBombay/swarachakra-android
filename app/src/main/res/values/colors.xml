@@ -4,5 +4,20 @@
    <color name="red">#FF0000</color>
    <color name="pressed">#777777</color>
    <color name="english_bg">#141414</color>
+   <color name="text_color">#383838</color>
    <color name="highlight">#b3756b</color>
+   <color name="bettertogether_primary">#e53935</color>
+   <color name="bettertogether_primary_dark">#b71c1c</color>
+   <color name="bettertogether_accent">#3f51b5</color>
+   <color name="color_primary">#3d665b</color>
+   <color name="color_secondary">#3d665b</color>
+   <color name="colorPrimaryDark">#365950</color>
+   <color name="textColorPrimary">#FFFFFF</color>
+
+   <color name="mode_button_background">#eaeaea</color>
+   <color name="keyboard_text_background">#000000</color>
+   <color name="scanner_text_background">#cc000000</color>
+   <color name="scanner_text">#ccffffff</color>
+
+   <color name="divider_color">#77909090</color>
 </resources>

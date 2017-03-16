@@ -1,6 +1,9 @@
 package iit.android.swarachakra;
 
+import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -8,27 +11,51 @@ import android.graphics.drawable.Drawable;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.Keyboard.Key;
+import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiManager;
 import android.preference.PreferenceManager;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.ExtractedText;
+import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
+import android.widget.Button;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.HashMap;
 import java.util.List;
 
+import iit.android.event.BroadcastMessage;
+import iit.android.event.MessageReceivedEvent;
+import iit.android.hotspot.HotspotManagerService;
+import iit.android.hotspot.HotspotManagerServiceCommunicator;
 import iit.android.language.Language;
 import iit.android.language.MainLanguage;
 import iit.android.language.english.English;
+import iit.android.mode.TextActivity;
 import iit.android.settings.SettingsActivity;
+
+import static iit.android.event.BroadcastMessage.Type.BLUETOOTH;
+import static iit.android.event.BroadcastMessage.Type.FINISHCOMPOSINGTEXT;
+import static iit.android.event.BroadcastMessage.Type.HANDLEPREVIEW;
+import static iit.android.event.BroadcastMessage.Type.KEYBOARD;
+import static iit.android.event.BroadcastMessage.Type.STR;
 
 /**
  * Input Method Service that runs when the keyboard is up and manages the whole life cycle of the keyboard
  *
  * @author Manideep Polireddi, Madhu Kiran
  */
-public class SoftKeyboard extends InputMethodService {
+public class SoftKeyboard extends InputMethodService implements HotspotManagerServiceCommunicator
+        .HotspotServiceCallback {
 
     private CustomKeyboardView mKeyboardView;
     private Keyboard mKeyboard;
@@ -44,8 +71,15 @@ public class SoftKeyboard extends InputMethodService {
     private Context mContext;
     private String displayMode, layoutName;
     private Key mEnterKey;
+    //private KeyLogger mKeyLogger;
     private static Context appContext = null;
     private boolean isPassword;
+    //BT
+    private static HotspotManagerServiceCommunicator mServiceCommunicator;
+    boolean ifremote = false;
+    private boolean first = false;
+    private InputConnection ic;
+    /*public static BroadcastMessage messagesend;*/
 
     @Override
     public void onCreate() {
@@ -53,6 +87,14 @@ public class SoftKeyboard extends InputMethodService {
         //Log.d("settings","onCreate Called");
         appContext = getApplicationContext();
         Installation.id(getApplicationContext());
+       /* mKeyLogger = new KeyLogger(this);
+        mKeyLogger.setSoftKeyboard(this);
+        mKeyLogger.extractedText = "";*/
+
+        //BT
+        mServiceCommunicator = new HotspotManagerServiceCommunicator(SoftKeyboard.this);
+        //System.out.println("mservice "+mServiceCommunicator);
+        //mServiceCommunicator.bindService(SoftKeyboard.this);
     }
 
     @Override
@@ -79,58 +121,129 @@ public class SoftKeyboard extends InputMethodService {
 
          /*  Log.d("dbgm", "Width:" +  mKeyboardView.getWidth());
         Log.d("dbgm", "Height:" + mKeyboardView.getHeight());*/
+        //BT
+        mServiceCommunicator.bindService(SoftKeyboard.this);
+        if (ifremote == true) {
+            Button inputView = (Button) getLayoutInflater().inflate(R.layout.remote_keyboard, null);
+            inputView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
 
-        mContext = this;
-        layoutName = "";
+                    System.out.println("destroy0");
+                    stopservice();
+                    /*final AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+                    builder.setTitle(R.string.better_together_framework);
+                    builder.setMessage(R.string.confirm_disconnect);
+                    builder.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            System.out.println("destroy0");
+                            stopservice();
+                        }
+                    });
+                    builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                        }
+                    });
+                    builder.show();*/
 
-        if (languageName == "") {
-            setLanguage("main");
+                    //setInputView(onCreateInputView());
+                }
+            });
+            return inputView;
         } else {
-            setLanguage(languageName);
-        }
+            mContext = this;
+            layoutName = "";
 
-        detectDisplayMode();
-        int keyboardViewResourceId = getKeyboardViewResourceId();
-        final RelativeLayout layout = (RelativeLayout) getLayoutInflater()
-                .inflate(keyboardViewResourceId, null);
+            if (languageName == "") {
+                setLanguage("main");
+            } else {
+                setLanguage(languageName);
+            }
 
-        try {
+            detectDisplayMode();
+            int keyboardViewResourceId = getKeyboardViewResourceId();
+            final RelativeLayout layout = (RelativeLayout) getLayoutInflater()
+                    .inflate(keyboardViewResourceId, null);
+
+            try {
             /*layout = (RelativeLayout) getLayoutInflater()
                     .inflate(keyboardViewResourceId, null);*/
 
-            if (languageName == "main") {
+                if (languageName == "main") {
 
-                mKeyboardView = (MainKeyboardView) layout.findViewById(R.id.keyboard);
+                    mKeyboardView = (MainKeyboardView) layout.findViewById(R.id.keyboard);
 
-            } else {
-                mKeyboardView = (EnglishKeyboardView) layout.findViewById(R.id.keyboard);
+                } else {
+                    mKeyboardView = (EnglishKeyboardView) layout.findViewById(R.id.keyboard);
+                }
+
+                int resourceId = getResourceId("default");
+                mKeyboard = new Keyboard(this, resourceId);
+                mKeyboardView.setKeyboard(mKeyboard);
+
+                mKeyboardView.init(this, language, mKeys);
+
+                updateFullscreenMode();
+
+                setKeys();
+                mKeyboardView.invalidateAllKeys();
+
+            } catch (Exception ex) {
+                Log.d("dbgm", ex.getMessage().toString());
+                //return;
+                //final RelativeLayout layout = null;
             }
 
-            int resourceId = getResourceId("default");
-            mKeyboard = new Keyboard(this, resourceId);
-            mKeyboardView.setKeyboard(mKeyboard);
-
-            mKeyboardView.init(this, language, mKeys);
-
-            updateFullscreenMode();
-
-            setKeys();
-            mKeyboardView.invalidateAllKeys();
-
-        } catch (Exception ex) {
-            Log.d("dbgm", ex.getMessage().toString());
-            //return;
-            //final RelativeLayout layout = null;
+            return layout;
         }
+    }
 
-        return layout;
+    //BT
+    //TODO: remove unused functions
+    public void stopservice() {
+        Log.d("debug", "Disconnect from text activity");
+        ifremote=false;
+        first=false;
+        if(TextActivity.activetext==true || MainKeyboardActionListener.active==true){
+            Intent i=new Intent(this, SettingsActivity.class);
+            i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            SettingsActivity.ifremote=false;
+            SettingsActivity.ifremotekeyboard=false;
+            TextActivity.activetext=false;
+            MainKeyboardActionListener.active=false;
+
+            startActivity(i);
+        }
+        if (mServiceCommunicator != null) {
+            System.out.println("destroy1");
+            Log.d("debug", "Disconnect from text activity");
+            BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+            if (mBluetoothAdapter.isEnabled()) {
+                mBluetoothAdapter.disable();
+            }
+            mServiceCommunicator.sendServiceMessage(HotspotManagerService.MSG_DISABLE_HOTSPOT, null);
+            mServiceCommunicator.unbindService(SoftKeyboard.this);
+        }
+        /*
+        Log.d("debug", "Disconnect from text activity");
+        BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        if (mBluetoothAdapter.isEnabled()) {
+            mBluetoothAdapter.disable();
+        }*/
+        setInputView(onCreateInputView());
     }
 
     @Override
     public void onFinishInputView(boolean finishingInput) {
         super.onFinishInputView(finishingInput);
-
-
+        /*if (!isPassword) {
+            mKeyLogger.writeToLocalStorage();
+        }
+        mKeyLogger.extractedText = "";
+*/
         //mLog.d("flag", "write now");
     }
 
@@ -182,8 +295,14 @@ public class SoftKeyboard extends InputMethodService {
 
         mInputConnection = getCurrentInputConnection();
 
-        if (mInputConnection == null)
+        if (mInputConnection == null) {
             Log.d("dbgm", "mInputConnection is null");
+            return;
+        }
+        if (mKeyboardView == null) {
+            Log.d("dbgm", "mKeyboardView is null");
+            return;
+        }
 
         mKeyboardView.resetInputConnection(mInputConnection);
         mKeyboardView.setAlpha(1);
@@ -226,8 +345,9 @@ public class SoftKeyboard extends InputMethodService {
      */
     private void setKeys() {
         List<Key> keys = mKeyboard.getKeys();
+        Log.d("track", "hereout" + keys.size());
         for (Key key : keys) {
-            //Log.d("track","hereout");
+            //Log.d("track","hereout"+keys.size());
             if (mKeys.containsKey(key.codes[0])) {
                 //Log.d("track","hereout2:"+key.codes[0]);
 
@@ -258,6 +378,14 @@ public class SoftKeyboard extends InputMethodService {
      * @param layoutFile layout id of the layout to be loaded into the keyboardView
      */
     public void changeKeyboard(String layoutFile) {
+
+        //BT
+        if (layoutFile == "remote") {
+            //System.out.println("honey");
+            ifremote = true;
+            setInputView(onCreateInputView());
+
+        }//--
 
         String prevDisplayMode = displayMode;
         detectDisplayMode();
@@ -303,6 +431,24 @@ public class SoftKeyboard extends InputMethodService {
         }
 
         layoutName = layoutFile;
+
+    }
+
+    //BT
+    public void changeKeyboardremote(String layoutFile) {
+        if (layoutFile == "remote") {
+            //System.out.println("honey");
+            Intent dialogIntent = new Intent(this, SettingsActivity.class);
+            dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(dialogIntent);
+           /* TextView inputView = (TextView) getLayoutInflater().inflate(R.layout.remote_keyboard, null);
+            inputView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                   // Log.d(this, "Disconnect keyboard here if necessary");
+                }
+            });*/
+        }
 
     }
 
@@ -371,7 +517,7 @@ public class SoftKeyboard extends InputMethodService {
     }
 
     public static int isTablet(Context context) {
-		/*return (context.getResources().getConfiguration().screenLayout
+        /*return (context.getResources().getConfiguration().screenLayout
 	            & Configuration.SCREENLAYOUT_SIZE_MASK)
 				>= Configuration.SCREENLAYOUT_SIZE_LARGE;*/
 
@@ -385,7 +531,6 @@ public class SoftKeyboard extends InputMethodService {
             return SettingsActivity.SCREENSIZE_SMALL_NORMAL;
         }
     }
-
 
 
     /**
@@ -592,6 +737,14 @@ public class SoftKeyboard extends InputMethodService {
         mKeyboardView.invalidateAllKeys();
     }
 
+    /**
+     * Gets the KeyLogger of this SoftKeyboard service
+     *
+     * @return KeyLogger of this SoftKeyboard service
+     */
+   /* public KeyLogger getKeyLogger() {
+        return mKeyLogger;
+    }*/
 
     public boolean isPassword() {
         return isPassword;
@@ -599,5 +752,239 @@ public class SoftKeyboard extends InputMethodService {
 
     public void setPassword(boolean isPassword) {
         this.isPassword = isPassword;
+    }
+
+    @Override
+    public void onStartInput(EditorInfo attribute, boolean restarting) {
+        super.onStartInput(attribute, restarting);
+        // Log.d(TAG, "Starting remote keyboard input (restarting: " + restarting + ")");
+        if (!EventBus.getDefault().isRegistered(this)) {
+            EventBus.getDefault().register(this); // register for EventBus events
+        }
+
+        // TODO: forward this state to the controlling keyboard
+        //// Reset our state.  We want to do this even if restarting, because
+        //// the underlying state of the text editor could have changed in any way.
+        //mComposing.setLength(0);
+        //updateCandidates();
+        //
+        //if (!restarting) {
+        //	// Clear shift states.
+        //	mMetaState = 0;
+        //}
+        //
+        //mPredictionOn = false;
+        //mCompletionOn = false;
+        //mCompletions = null;
+        //
+        //// We are now going to initialize our state based on the type of
+        //// text being edited.
+        //switch (attribute.inputType & InputType.TYPE_MASK_CLASS) {
+        //	case InputType.TYPE_CLASS_NUMBER:
+        //	case InputType.TYPE_CLASS_DATETIME:
+        //		// Numbers and dates default to the symbols keyboard, with
+        //		// no extra features.
+        //		mCurKeyboard = mSymbolsKeyboard;
+        //		break;
+        //
+        //	case InputType.TYPE_CLASS_PHONE:
+        //		// Phones will also default to the symbols keyboard, though
+        //		// often you will want to have a dedicated phone keyboard.
+        //		mCurKeyboard = mSymbolsKeyboard;
+        //		break;
+        //
+        //	case InputType.TYPE_CLASS_TEXT:
+        //		// This is general text editing.  We will default to the
+        //		// normal alphabetic keyboard, and assume that we should
+        //		// be doing predictive text (showing candidates as the
+        //		// user types).
+        //		mCurKeyboard = mQwertyKeyboard;
+        //		mPredictionOn = true;
+        //
+        //		// We now look for a few special variations of text that will
+        //		// modify our behavior.
+        //		int variation = attribute.inputType & InputType.TYPE_MASK_VARIATION;
+        //		if (variation == InputType.TYPE_TEXT_VARIATION_PASSWORD || variation == InputType
+        //				.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD) {
+        //			// Do not display predictions / what the user is typing
+        //			// when they are entering a password.
+        //			mPredictionOn = false;
+        //		}
+        //
+        //		if (variation == InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS || variation == InputType.TYPE_TEXT_VARIATION_URI
+        //				|| variation == InputType.TYPE_TEXT_VARIATION_FILTER) {
+        //			// Our predictions are not useful for e-mail addresses
+        //			// or URIs.
+        //			mPredictionOn = false;
+        //		}
+        //
+        //		if ((attribute.inputType & InputType.TYPE_TEXT_FLAG_AUTO_COMPLETE) != 0) {
+        //			// If this is an auto-complete text view, then our predictions
+        //			// will not be shown and instead we will allow the editor
+        //			// to supply their own.  We only show the editor's
+        //			// candidates when in fullscreen mode, otherwise relying
+        //			// own it displaying its own UI.
+        //			mPredictionOn = false;
+        //			mCompletionOn = isFullscreenMode();
+        //		}
+        //
+        //		// We also want to look at the current state of the editor
+        //		// to decide whether our alphabetic keyboard should start out
+        //		// shifted.
+        //		updateShiftKeyState(attribute);
+        //		break;
+        //
+        //	default:
+        //		// For all unknown input types, default to the alphabetic
+        //		// keyboard with no special features.
+        //		mCurKeyboard = mQwertyKeyboard;
+        //		updateShiftKeyState(attribute);
+        //}
+        //
+        //// Update the label on the enter key, depending on what the application
+        //// says it will do.
+        //mCurKeyboard.setImeOptions(getResources(), attribute.imeOptions);
+    }
+
+    // TODO: can we communicate with the keyboard another way? (e.g., handler?)
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessage(MessageReceivedEvent event) {
+        BroadcastMessage message = event.mMessage;
+        ic = getCurrentInputConnection();
+        Log.d("debug","Remote keyboard: "+message.mMessage);
+
+        if (message.mType == KEYBOARD && first == false && MainKeyboardActionListener.active == false) {
+            ifremote=true;
+            changeKeyboard("remote");
+            first = true;
+        }
+        if (message.mType == KEYBOARD) {
+
+            System.out.println("messagelo " + message.mMessage);
+
+            if (message.mMessage.matches("\\d+") && Integer.parseInt(message.mMessage) == mKeyboardView.BACKSPACE) {
+
+                if (MainKeyboardActionListener.inSymbolMode1) {
+                    CharSequence selection = ic.getSelectedText(0);
+                    //ic = getCurrentInputConnection();
+                    ic.setComposingText("", 1);
+                    ic.finishComposingText();
+                    /*try {
+                        ExtractedText edt = ic.getExtractedText(new ExtractedTextRequest(), 0);
+
+                        if (edt != null) {
+                            //mKeyLogger.extractedText = edt.text.toString();
+                        } else {
+                            //mLog.d(mKeyLogger.TAG,"handlechar(): About to hide, nothing to save" + edt);
+                        }
+                    } catch (Exception ex) {
+                        //mLog.d(mKeyLogger.TAG,"handlechar():ex "+ex.getMessage());
+                    }*/
+
+
+                    if (selection == null) {
+                        ic.deleteSurroundingText(1, 0);
+                    }
+                } else {
+                    System.out.println("exceptionn +" + MainKeyboardActionListener.mExceptionLangHandler);
+                    //System.out.println("exceptionn2 +"+mExceptionLangHandler);
+                    //mExceptionLangHandler.setInputConnection(mInputConnection);
+                    MainKeyboardActionListener.mExceptionLangHandler.handleBackSpaceDeleteChar(ic);
+
+                    CharSequence before = ic.getTextBeforeCursor(15, 0);
+                    Log.d("flow", "After handleBackSpaceDeleteChar()");
+                    BroadcastMessage messagesend = new BroadcastMessage(BroadcastMessage.Type.KEYBOARD, before.toString());
+                    int[] extras = new int[]{67};
+                    messagesend.setExtras(extras);
+                    //System.out.println("this will go" + message);
+                    SoftKeyboard.mServiceCommunicator.sendBroadcastMessage(messagesend);
+
+                }
+
+
+            } else if (message.mMessage.matches("\\d+") && Integer.parseInt(message.mMessage) == mKeyboardView.ENTER) {
+                System.out.println("enter");
+                ic.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN,
+                        KeyEvent.KEYCODE_ENTER));
+                ic.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_UP,
+                        KeyEvent.KEYCODE_ENTER));
+            } else {
+                //ic = getCurrentInputConnection();
+                if (message.getExtras()[0] == 2) {
+                    //ic.finishComposingText();
+                    System.out.println("halant aya" + message.mMessage);
+                    ic.setComposingText(message.mMessage, 1);
+                    //ic.finishComposingText();
+                    //ic.deleteSurroundingText(1, 0);
+                } else {
+                    //ic.finishComposingText();
+                    ic.setComposingText(message.mMessage, 1);
+                    System.out.println("halant gaya" + message.mMessage);
+
+                    ic.finishComposingText();
+                }
+                /*try {
+                    ExtractedText edt = ic.getExtractedText(new ExtractedTextRequest(), 0);
+
+                    if (edt != null) {
+                        //mKeyLogger.extractedText = edt.text.toString();
+                    } else {
+                        //mLog.d(mKeyLogger.TAG,"handlechar(): About to hide, nothing to save" + edt);
+                    }
+                } catch (Exception ex) {
+                    //mLog.d(mKeyLogger.TAG,"handlechar():ex "+ex.getMessage());
+                }*/
+
+            }
+
+        } else if (message.mType == HANDLEPREVIEW) {
+
+            //ic.finishComposingText();
+            ic.setComposingText(message.mMessage, 1);
+            System.out.println("HANDLEPREVIEW commit this " + message.mMessage);
+            //ic.finishComposingText();
+
+            CharSequence before = ic.getTextBeforeCursor(15, 0);
+            System.out.println("SK onMessage() before=" + String.valueOf(before));
+            Log.d("flow", "in OnMessage handle preview code block");
+            BroadcastMessage messagesend = new BroadcastMessage(BroadcastMessage.Type.KEYBOARD, before.toString());
+            int[] extras = new int[]{67};
+            messagesend.setExtras(extras);
+            //System.out.println("this will go" + message);
+            SoftKeyboard.mServiceCommunicator.sendBroadcastMessage(messagesend);
+            //MainKeyboardActionListener.handlePreviewremote();
+        } else if (message.mType == STR) {
+            String str = message.mMessage;
+            Log.d("debug", "Message type str:-"+str+"-");
+
+            ExtractedText edt = ic.getExtractedText(new ExtractedTextRequest(), 0);
+            System.out.println("edt " + edt);
+            int lastChar = ic.getTextBeforeCursor(edt.text.length(), 0).length();
+            System.out.println("lastcharsoftkeyboard " + lastChar);
+            // The whole text in text box is considered to be less than 1000 characters
+            //mLog.v("system","stringLength:"+edt.text.length()+", lastC="+lastChar+", firstC="+(lastChar-str.length()));
+            //ic.finishComposingText();
+            /*ic.setComposingRegion(lastChar - (str.length()), lastChar);
+            ic.setComposingText(str, 1);*/
+
+            ic.finishComposingText();
+            ic.setComposingText(message.mMessage, 1);
+            ic.finishComposingText();
+        } else if (message.mType == FINISHCOMPOSINGTEXT) {
+            Log.d("debug", "Message type finish composing text");
+            ic.finishComposingText();
+        }else if(message.mType==BLUETOOTH){
+            stopservice();
+        }
+    }
+
+    @Override
+    public void onBroadcastMessageReceived(BroadcastMessage message) {
+
+    }
+
+    @Override
+    public void onServiceMessageReceived(int type, String data) {
+
     }
 }

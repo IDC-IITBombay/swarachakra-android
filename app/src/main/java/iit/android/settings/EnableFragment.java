@@ -40,7 +40,7 @@ public class EnableFragment extends Fragment {
             resId = getResources().getIdentifier(
                     languageName + "_" + "menu_language", "string",
                     mainApp.getPackageName());*/
-            langButton.setImageResource(R.drawable.marathi);
+            langButton.setImageResource(R.drawable.language);
         }else{
             /*resId = getResources().getIdentifier(
                     "menu_language", "string",

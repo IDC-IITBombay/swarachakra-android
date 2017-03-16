@@ -143,7 +143,44 @@
         android:layout_marginRight="16dp"
         android:layout_below="@id/layoutRadioGroup"
         android:hint="@string/preview_your_settings"/>-->
-    
+
+    <TextView
+        android:id="@+id/remotemode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preview"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:text="@string/remote_mode_label"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/remotekeyboard"
+        android:layout_below="@+id/remotemode"
+        android:layout_alignLeft="@+id/labels"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button"
+        android:textAppearance="?android:attr/textAllCaps"
+        android:textColor="#fff"
+        android:text="@string/remoteKB"
+        android:textSize="14sp"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/typeremote"
+        android:layout_below="@+id/remotemode"
+        android:layout_marginLeft="160dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button"
+        android:textAppearance="?android:attr/textAllCaps"
+        android:textColor="#fff"
+        android:text="@string/inputdevice"
+        android:textSize="14sp"
+        android:gravity="center_horizontal"
+        />
      <TextView
         android:id="@+id/likeus"
         android:layout_width="wrap_content"
@@ -152,7 +189,7 @@
 		android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:paddingBottom="10dp"
-        android:layout_below="@+id/labels"
+        android:layout_below="@+id/typeremote"
         android:text="@string/do_you_like" />
 	<Button
     android:id="@+id/rateus"
@@ -162,7 +199,7 @@
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
     android:layout_below="@+id/likeus"
-    android:background="#383838"
+    android:background="@drawable/button"
     android:textColor="#fff"
     android:text="@string/rate_us" />
     <Button
@@ -173,7 +210,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/fblogo"
+        android:background="@drawable/fblogo72"
         android:gravity="center_horizontal"
         />
     <TextView

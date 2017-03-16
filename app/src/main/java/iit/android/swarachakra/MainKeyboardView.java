@@ -23,7 +23,8 @@ public class MainKeyboardView extends CustomKeyboardView {
 	public View mPopupParent;
 	public SwaraChakra mSwaraChakra;
 	//private KeyLogger mKeyLogger;
-	private MainKeyboardActionListener mActionListener;
+	//BT scope changed
+	public MainKeyboardActionListener mActionListener;
 	private boolean isPassword;
     private Context mContext;
 

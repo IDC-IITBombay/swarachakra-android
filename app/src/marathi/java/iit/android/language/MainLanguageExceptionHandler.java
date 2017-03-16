@@ -45,7 +45,7 @@ public class MainLanguageExceptionHandler implements ExceptionHandler {
     private MainKeyboardActionListener mKeyAction;
     private SoftKeyboard sk;
     private static final String RA = "\u0930";
-    private static final String HALANT = "\u094D";
+    public static final String HALANT = "\u094D";
     private static final String EYELASHRA = "\u0930\u094d\u200d";
     private static final String NUKTA = "\u093C";
 

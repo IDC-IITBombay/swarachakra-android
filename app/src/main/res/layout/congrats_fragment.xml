@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android.support.design="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="@dimen/activity_vertical_margin">
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,49 +13,46 @@
     >
 <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp">
     <TextView
         android:id="@+id/instruction"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="18dp"
-        android:paddingBottom="7sp"
-        android:paddingLeft="30sp"
-        android:paddingRight="30sp"
-        android:paddingTop="7sp"
-        android:text=""
         android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="25sp" />
+        android:textColor="#383838"
+        android:textSize="@dimen/activity_title" />
     
     <TextView
         android:id="@+id/title"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/instruction"
+        android:layout_below="@id/instruction"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text=""
-        android:gravity="left"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
         android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="55sp" />
+        android:textColor="#383838"
+        android:textSize="@dimen/activity_instruction" />
 
     <Button
         android:id="@+id/congrats_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:layout_gravity="left"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:background="@drawable/button"
-        android:layout_below="@+id/title"
-        android:onClick="buttonClick"
+        android:layout_gravity="start"
         android:padding="10dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#fff" />
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/title"
+        android:textColor="#fff"
+        android:onClick="buttonClick"
+        android:background="@drawable/button"
+        android:textAppearance="?android:attr/textAppearanceButton"
+        android:textSize="@dimen/activity_button"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp" />
     <!--<Button
         android:id="@+id/toggleLanguage_congrats"
         android:layout_width="wrap_content"
@@ -78,7 +77,7 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android:onClick="changeLanguage"
-        android:src="@drawable/marathi"
+        android:src="@drawable/language"
         app:layout_anchor="@+id/topView_congrats"
         app:layout_anchorGravity="bottom|right|end"/>
 </android.support.design.widget.CoordinatorLayout>

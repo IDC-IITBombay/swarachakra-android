@@ -82,7 +82,7 @@ public class MainActivity extends FragmentActivity {
 		return super.onCreateOptionsMenu(menu);
 	}
 
-	@Override
+	/*@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle presses on the action bar items
 		switch (item.getItemId()) {
@@ -106,7 +106,7 @@ public class MainActivity extends FragmentActivity {
 		default:
 			return super.onOptionsItemSelected(item);
 		}
-	}
+	}*/
 
 	public String getStringResourceByName(String aString) {
 		String packageName = getPackageName();

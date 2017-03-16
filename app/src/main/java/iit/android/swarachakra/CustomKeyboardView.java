@@ -19,6 +19,10 @@ public class CustomKeyboardView extends KeyboardView {
 	public final int SPACE = Integer.parseInt(getResources().getString(R.string.space));
 	public final int ENTER = Integer.parseInt(getResources().getString(R.string.enter));
 	public final int SHIFT = Integer.parseInt(getResources().getString(R.string.shift));
+
+	//BT
+	public final int REMOTEKEYBOARD=Integer.parseInt(getResources().getString(R.string.remotekeyboard));
+
 	public int width;
 	public int height;
 	public List<Keyboard.Key> keys;

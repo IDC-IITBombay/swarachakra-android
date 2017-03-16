@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:keyHeight="6.29%p"
     android:keyWidth="11.6%p"
-    >
-    <!--layout height change 1: keyheight -->
+>
 
     <!--00000000000 Row Zero-->
-    <!--layout height change 2: keyheight for the top blank row -->
     <Row  android:keyHeight="3.82%p">
         <!--trying additional space bar at the top, will drop eventually -->
         <Key
@@ -21,7 +20,7 @@
         <!--Marathi fullstop -->
         <Key android:codes="41"
             android:keyEdgeFlags="left"
-            />
+        />
 
         <!--ka -->
         <Key android:codes="1" android:horizontalGap="8%p"/>
@@ -30,13 +29,12 @@
         <!--ga -->
         <Key android:codes="3" />
         <!--gha -->
-       <Key android:codes="4" />
+        <Key android:codes="4" />
         <!--gna -->
         <Key android:codes="5" />
 
 
         <!--backspace -->
-        <!--layout height change 3: bkspc height -->
         <Key
             android:codes="@string/backspace"
             android:isRepeatable="true"
@@ -53,7 +51,7 @@
         <!--comma -->
         <Key android:keyEdgeFlags="left"
             android:codes="42"
-            />
+        />
 
         <!--kana matra velanti -->
         <Key android:codes="107" android:horizontalGap="2.2%p"/>
@@ -65,7 +63,7 @@
         <!--ja -->
         <Key android:codes="8" />
         <!--jha -->
-       <Key android:codes="9" />
+        <Key android:codes="9" />
         <!--jna -->
         <Key android:codes="10" />
     </Row>
@@ -89,11 +87,11 @@
         <Key android:codes="15" />
 
         <!--anuswar -->
-       <Key
+        <Key
             android:codes="48"
             android:keyEdgeFlags="right"
             android:horizontalGap="10%p"
-            />
+        />
     </Row>
 
     <!--444444444444-->
@@ -117,11 +115,11 @@
         <Key android:codes="20" />
 
         <!--chandrabindu -->
-       <Key
+        <Key
             android:codes="120"
             android:keyEdgeFlags="right"
-           android:horizontalGap="4%p"
-/>
+            android:horizontalGap="4%p"
+        />
     </Row>
 
     <!--layout height change 4: vertical gap after this row (before ya-row)  -->
@@ -138,16 +136,16 @@
         <!--ba -->
         <Key android:codes="23" />
         <!--bha -->
-       <Key android:codes="24" />
+        <Key android:codes="24" />
         <!--ma -->
         <Key android:codes="25" />
 
         <!--a ki matra as in captain -->
-       <Key
+        <Key
             android:codes="49"
             android:keyEdgeFlags="right"
             android:horizontalGap="10%p"
-            />
+        />
     </Row>
 
     <!--666666666666666666666-->
@@ -155,7 +153,7 @@
         <!--double quote -->
         <Key android:codes="46"
             android:keyEdgeFlags="left"
-            />
+        />
 
         <!--ru -->
         <Key android:codes="108" android:horizontalGap="2.2%p" />
@@ -165,7 +163,7 @@
         <!--ra -->
         <Key android:codes="27" />
         <!--la -->
-       <Key android:codes="28" />
+        <Key android:codes="28" />
         <!--va -->
         <Key android:codes="29" />
         <!--sha -->
@@ -176,7 +174,7 @@
             android:codes="122"
             android:keyEdgeFlags="right"
             android:horizontalGap="4%p"
-            />
+        />
     </Row>
 
     <!--777777777777777777777777-->
@@ -201,12 +199,11 @@
             android:codes="50"
             android:keyEdgeFlags="right"
             android:horizontalGap="10%p"
-            />
+        />
     </Row>
 
     <!--8888888888888888888888888888888888888-->
     <Row>
-        <!--layout height change 5: shift height -->
         <!--shift -->
         <Key
             android:codes="@string/symbols"
@@ -217,7 +214,7 @@
 
         <!--jna -->
         <Key android:codes="36"
-            />
+        />
 
         <!--shra -->
         <Key android:codes="37"/>
@@ -247,12 +244,14 @@
             android:horizontalGap="14.285%p"
             android:keyLabel="En"
             />
+        <Key android:codes="@string/remotekeyboard"
+            android:keyIcon="@drawable/ic_settings_white_24dp"/>
         <!--space bar -->
         <Key
             android:codes="@string/space"
-            android:keyWidth="47%p"
+            android:keyWidth="35.4%p"
 
-            />
+        />
         <!--enter -->
         <Key
             android:codes="@string/enter"
@@ -260,6 +259,6 @@
             android:keyIcon="@drawable/sym_keyboard_return"
             android:keyWidth="25%p"
             android:keyEdgeFlags="right"
-            />
+        />
     </Row>
 </Keyboard>
