@@ -14,11 +14,13 @@
     <style name="Theme.AppCompat.NoActionBar" parent="Theme.AppCompat.Light">
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
+
     </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
 
     </style>
     
@@ -27,6 +29,7 @@
         <item name="android:textColor">@drawable/settings_layout_text_color</item>
         <item name="android:paddingBottom">10dp</item>
         <item name="android:paddingTop">10dp</item>
+        <item name="windowActionBar">false</item>
     </style>
     <style name="preview_back_button">
         <item name="android:background">@drawable/preview_button</item>
@@ -35,4 +38,14 @@
         <item name="android:paddingTop">7dp</item>
     </style>
 
+    <!--<style name="BetterTogether" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/bettertogether_primary</item>
+        <item name="colorPrimaryDark">@color/bettertogether_primary_dark</item>
+        <item name="colorAccent">@color/bettertogether_accent</item>
+
+        <item name="colorControlNormal">@color/bettertogether_primary</item>
+        <item name="colorControlActivated">@color/bettertogether_primary</item>
+        <item name="colorControlHighlight">@color/bettertogether_primary</item>
+    </style>
+-->
 </resources>

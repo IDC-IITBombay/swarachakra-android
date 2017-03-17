@@ -12,7 +12,8 @@
     <string name="space">403</string>
     <string name="enter">404</string>
     <string name="shift">405</string>
-    
+    <string name="remotekeyboard">406</string>
+
     <string name="tablet_layout_setting_key">use_small_layout</string>
     <string name="tablet_layout_setting_title">Use small layout</string>
     <string name="tablet_layout_setting_summary">Reduces the height of the keyboard and the key sizes</string>
@@ -65,6 +66,7 @@
     <string name="rate_us">Rate us on Google Play Store.</string>
     <string name="fb_likeus">Like Swarachakra on facebook</string>
     <string name="tapaatap_download">Download tapaatap typing game</string>
+    <string name="tapaatap_label">Want to play a Marathi typing game?</string>
     <string name="tryit">Try it</string>
     <string name="title_activity_preview">Preview</string>
     <string name="back">Back</string>
@@ -79,4 +81,55 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="app_name_short">BT</string>
+    <string name="simple_ime">Simple IME</string>
+    <!--<string name="subtype_en_US">English (US)</string>-->
+    <string name="create_hotspot">Create a hotspot</string>
+    <!--<string name="join_hotspot">Scan the QR code on another phone to type from this phone</string>
+    <string name="host_hotspot">To type on this phone from another phone, scan the above QR code from the other phone.</string>-->
+    <string name="join_hotspot">ह्या फोनवरून दुसऱ्या फोनवर टाइप करण्यासाठी त्या फोनवरील QR कोड इथून स्कॅन करा</string>
+    <string name="host_hotspot">दुसऱ्या फोनवरून ह्या फोनवर टाइप करण्यासाठी त्या फोनवरून वरील QR कोड स्कॅन करा</string>
+
+    <string name="choose_mode">दुसऱ्या फोनवरून ह्या फोनवर टाइप करणे बंद करा</string>
+    <string name="show_join_hotspot">Let another person join this hotspot</string>
+
+    <string name="button_done">Done</string>
+
+    <string name="hint_settings_access">Settings access</string>
+    <string name="hint_enable_settings_access">Please allow Swarachakra to edit settings.\n\nThis access allows Swarachakra to connect to other Swarachakra apps</string>
+    <string name="hint_edit_settings_access">Edit settings access</string>
+    <string name="error_editing_settings">Unable to set up connection - please make sure you grant Swarachakra permission to edit settings</string>
+
+
+    <string name="mode_keyboard">आता तुम्ही ह्या फोनवरून दुसऱ्या फोनवर टाइप करू शकता.</string>
+    <string name="mode_text">आता तुम्ही दुसऱ्या फोनवरून ह्या फोनवर टाइप करू शकता. तुम्ही दुसऱ्या फोनवरून ह्या फोनवर ई-मेल, एसएमएस, इ. टाइप करू शकता.</string>
+    <string name="connect1">ब्लूटूथ द्वारे कनेक्ट करण्याचा प्रयत्न करीत आहोत</string>
+    <string name="connect2">ब्लूटूथ फोन / टॅब शोधत आहोत</string>
+    <string name="connecting_hotspot">कनेक्शन स्थापित होत आहे</string>
+    <!--<string name="connecting_hotspot">Connecting…</string>-->
+
+
+    <!-- labels for keyboard -->
+    <!--<string name="label_subtype_generic">%s</string>-->
+    <!--<string name="label_settings">Remote control keyboard</string>-->
+    <string name="label_keyboard">दुसऱ्या फोनवरून ह्या फोनवर टाइप करणे बंद करा</string>
+    <string name="label_remote">ह्या फोनवरून दुसऱ्या फोनवर टाइप करणे बंद करा</string>
+
+    <!-- settings keys -->
+    <string name="saved_hotspot_url">saved_hotspot_url</string>
+    <string name ="remoteKB">Type on another phone from this phone</string>
+    <string name="inputdevice">Type on this phone from another phone</string>
+    <string name="remote_mode_label">Remote keyboard</string>
+    <string name="better_together_framework">रिमोट कीबोर्ड</string>
+
+
+    <string name="hint_coarse_location_access">Location access</string>
+    <string name="hint_enable_coarse_location_access">Please allow Swarachakra to access your location.\n\nThis access allows Swarachakra to find other devices near to you and connect to other Swarachakra phones</string>
+    <string name="hint_edit_coarse_location_access">Ask me again</string>
+    <string name="error_accessing_location">Unable to set up connection - please make sure you grant Swarachakra permission to access your location</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="confirm_disconnect">Are you sure you want to disconnect remote keyboard?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
 </resources>

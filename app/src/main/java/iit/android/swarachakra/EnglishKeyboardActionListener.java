@@ -23,6 +23,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
+import iit.android.event.BroadcastMessage;
+
 public class EnglishKeyboardActionListener implements OnKeyboardActionListener,
 		OnTouchListener {
 
@@ -188,6 +190,10 @@ public class EnglishKeyboardActionListener implements OnKeyboardActionListener,
 				changeLayout();
 			}
 			commitText(label);
+			//BT
+			if(MainKeyboardActionListener.active==true){
+				MainKeyboardActionListener.committextremote(label,0);
+			}//--
 			if (inQuickSymbolMode) {
 				handleSpecialInput(SYMBOLS);
 			}
@@ -398,6 +404,9 @@ public class EnglishKeyboardActionListener implements OnKeyboardActionListener,
 		else if (keyCode == BACKSPACE) {
 			CharSequence selection = mInputConnection.getSelectedText(0);
 			commitText("");
+			//BT
+			if(MainKeyboardActionListener.active==true)
+			    MainKeyboardActionListener.committextremote(String.valueOf(keyCode),0); //TODO: 0 is for English
 
 			if (selection == null) {
 				mInputConnection.deleteSurroundingText(1, 0);
@@ -408,6 +417,9 @@ public class EnglishKeyboardActionListener implements OnKeyboardActionListener,
 			if (!spaceHandled) {
 				mInputConnection.finishComposingText();
 				commitText(" ");
+				//BT
+				if(MainKeyboardActionListener.active==true)
+					MainKeyboardActionListener.committextremote(" ",0);
 			}
 		}
 
@@ -434,6 +446,9 @@ public class EnglishKeyboardActionListener implements OnKeyboardActionListener,
 		else if (keyCode == ENTER) {
 
 			handleEnter();
+			if(MainKeyboardActionListener.active==true){
+				MainKeyboardActionListener.committextremote(String.valueOf(keyCode),0); //TODO: 0 is for English
+			}
 		}
 
 	}

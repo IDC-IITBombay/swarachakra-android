@@ -1339,8 +1339,6 @@ public class MainLanguage extends Language{
 		myKey108.layout = "";
 		myKey.set(108, myKey108);
 
-
-
 		KeyAttr myKey109 = new KeyAttr();
 		myKey109.code = 110;
 		myKey109.label = "1" ;//numeral 1

@@ -42,6 +42,7 @@
     <string name="marathi_do_you_like">स्वरचक्र आवडलं का?</string>
     <string name="marathi_rate_us">गूगल प्ले स्टोर वर रेटिंग देऊन आपला अभिप्राय कळवा.</string>
     <string name="marathi_fb_likeus">स्वरचक्रला फेसबुकवर लाइक करा</string>
+    <string name="marathi_tapaatap_label">मराठी टायपिंग गेम खेळायचा आहे का?</string>
     <string name="marathi_tapaatap_download">टपाटप गेम डाउनलोड करा</string>
 
     <string name="marathi_tryit">वापरून बघा</string>
@@ -52,6 +53,52 @@
     <string name="marathi_height5">मोठा</string>
     <string name="marathi_heightreco">सुचवलेला</string>
     <string name="marathi_preview_your_settings">पूर्वावलोकन</string>
+    <string name="marathi_title_activity_preview">पूर्वावलोकन</string>
     <string name="marathi_back">मागे</string>
+
+
+
+    <!--<string name="marathi_app_name_short">BT</string>-->
+    <string name="marathi_simple_ime">Simple IME</string>
+    <!--<string name="marathi_subtype_en_US">English (US)</string>-->
+    <string name="marathi_create_hotspot">Create a hotspot</string>
+    <!--<string name="marathi_join_hotspot">Scan a QR code to join a group</string>
+    <string name="marathi_host_hotspot">Use your phones to scan this code</string>-->
+
+
+    <string name="marathi_show_join_hotspot">Let another person join this hotspot</string>
+
+    <string name="marathi_button_done">Done</string>
+
+    <string name="marathi_hint_settings_access">Settings access</string>
+    <string name="marathi_hint_enable_settings_access">Please allow Swarachakra to edit settings.\n\nThis access allows Swarachakra to connect to other Swarachakra apps</string>
+    <string name="marathi_hint_edit_settings_access">Edit settings access</string>
+    <string name="marathi_error_editing_settings">Unable to set up connection - please make sure you grant Swarachakra permission to edit settings</string>
+
+
+    <string name="marathi_join_hotspot">ह्या फोनवरून दुसऱ्या फोनवर टाइप करण्यासाठी त्या फोनवरील QR कोड इथून स्कॅन करा</string>
+    <string name="marathi_host_hotspot">दुसऱ्या फोनवरून ह्या फोनवर टाइप करण्यासाठी त्या फोनवरून वरील QR कोड स्कॅन करा</string>
+
+    <!--<string name="marathi_connect1">Found a phone - connecting over Bluetooth</string>
+    <string name="marathi_connect2">Searching Bluetooth</string>-->
+    <string name="marathi_connect1">ब्लूटूथ द्वारे कनेक्ट करण्याचा प्रयत्न करीत आहोत</string>
+    <string name="marathi_connect2">ब्लूटूथ फोन / टॅब शोधत आहोत</string>
+    <string name="marathi_connecting_hotspot">कनेक्शन स्थापित होत आहे</string>
+    <string name="marathi_choose_mode">दुसऱ्या फोनवरून ह्या फोनवर टाइप करणे बंद करा</string>
+    <string name="marathi_mode_keyboard">आता तुम्ही ह्या फोनवरून दुसऱ्या फोनवर टाइप करू शकता. </string>
+    <string name="marathi_mode_text">आता तुम्ही दुसऱ्या फोनवरून ह्या फोनवर टाइप करू शकता. तुम्ही दुसऱ्या फोनवरून ह्या फोनवर ई-मेल, एसएमएस, इ. टाइप करू शकता.</string>
+
+
+    <!-- labels for keyboard -->
+    <!--<string name="marathi_label_subtype_generic">%s</string>-->
+    <!--<string name="marathi_label_settings">Remote control keyboard</string>-->
+    <string name="marathi_label_keyboard">दुसऱ्या फोनवरून ह्या फोनवर टाइप करणे बंद करा</string>
+
+    <!-- settings keys -->
+    <string name="marathi_saved_hotspot_url">saved_hotspot_url</string>
+    <string name ="marathi_remoteKB">ह्या फोनवरून दुसऱ्या फोनवर टाइप करा</string>
+    <string name="marathi_inputdevice">दुसऱ्या फोनवरून ह्या फोनवर टाइप करा</string>
+    <string name="marathi_remote_mode_label">रिमोट कीबोर्ड</string>
+    <string name="marathi_better_together_framework">रिमोट कीबोर्ड</string>
 
 </resources>

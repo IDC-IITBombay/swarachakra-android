@@ -22,6 +22,7 @@
             android:visibility="gone" />
 
         <LinearLayout
+            android:id="@+id/preview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -38,12 +39,12 @@
             <Button
                 android:id="@+id/backToSetting"
                 android:layout_width="60dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:layout_toRightOf="@+id/preview_edit_text"
                 android:text="@string/back"
                 android:background="@drawable/button"
                 android:radius="10dp"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 android:textColor="#fff"
                 style="@android:style/Theme.Black"
                 />

@@ -2,22 +2,26 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android.support.design="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:padding="@dimen/activity_vertical_margin"
+	>
 <ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:id="@+id/topView_enable"
     >
 	
     <RelativeLayout
-        android:layout_width="match_parent"
-			android:layout_height="wrap_content" >
+       		android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="50dp"
+		>
     
 	    <TextView android:id="@+id/enable_instructions_head"
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
-	        android:textSize="20sp"
+	        android:textSize="@dimen/activity_instruction"
 	        android:paddingLeft="20dp"
 	        android:paddingRight="20dp" />
 	    
@@ -25,10 +29,12 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
             android:layout_below="@+id/enable_instructions_head"
-	        android:textSize="20sp"
+			android:textSize="@dimen/activity_steps"
 	        android:padding="20dp" />
 	    
-	    <ImageView android:layout_width="match_parent"
+	    <ImageView
+			android:id="@+id/enableStepImg"
+			android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
             android:layout_below="@+id/enable_step_1"
 	        android:src="@drawable/enable_step_1"
@@ -40,8 +46,8 @@
 	    <TextView android:id="@+id/enable_step_2"
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
-            android:layout_below="@+id/enable_step_1"
-	        android:textSize="20sp"
+            android:layout_below="@+id/enableStepImg"
+			android:textSize="@dimen/activity_steps"
             android:layout_marginTop="20dp"
 	        android:padding="20dp"/>
 	    
@@ -49,23 +55,26 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
             android:layout_below="@+id/enable_step_2"
-	        android:textSize="20sp"
+			android:textSize="@dimen/activity_steps"
 	        android:padding="20dp"/>
 	    
 	    <Button android:id="@+id/enable_button"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-            android:layout_below="@+id/enable_step_3"
-	        android:layout_gravity="left"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
+	        android:layout_gravity="start"
 	        android:padding="10dp"
 	        android:layout_marginTop="20dp"
-	        android:layout_marginBottom="5dp"
+			android:layout_below="@+id/enable_step_3"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginBottom="20dp"
 	        android:textColor="#fff"
 	        android:onClick="buttonClick"
 	        android:background="@drawable/button"
-	        android:textAppearance="?android:attr/textAppearanceLarge"/>
+			android:textAppearance="?android:attr/textAppearanceButton"
+			android:textSize="@dimen/activity_button"
+			android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp"
+			/>
 
 		<!--<Button
 			android:id="@+id/toggleLanguage_enable"
@@ -92,7 +101,7 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android:onClick="changeLanguage"
-        android:src="@drawable/marathi"
+        android:src="@drawable/language"
         app:layout_anchor="@+id/topView_enable"
         app:layout_anchorGravity="bottom|right|end"/>
 </android.support.design.widget.CoordinatorLayout>
