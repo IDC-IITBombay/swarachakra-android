@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="5.01%p"
+    android:keyWidth="12.1%p">
+    <!-- layout height change 1:keyheight -->
+
+    <!--<Row android:keyHeight="0.5%p">
+
+    </Row>-->
+
+    <!--1111111111111111-->
+    <Row>
+
+        <Key
+            android:codes="110"
+            android:keyEdgeFlags="left"
+            android:horizontalGap="1.5%p"
+            />
+
+        <Key android:codes="111" />
+
+        <Key android:codes="112" />
+        <Key android:codes="56" />
+
+        <Key android:codes="57" />
+
+        <Key android:codes="58" />
+
+
+
+        <Key android:codes="59" />
+
+        <!-- layout height change 2: bkspc keyheight -->
+        <Key
+            android:codes="@string/backspace"
+            android:isRepeatable="true"
+            android:keyWidth="13.4%p"
+            android:keyEdgeFlags="right"
+            android:keyHeight="10.01%p"
+            android:keyIcon="@drawable/delete" />
+    </Row>
+
+    <!-- 222222222222222222222222222222222222222222222222222222-->
+
+    <Row>
+
+        <Key
+            android:codes="113"
+            android:keyEdgeFlags="left"
+            android:horizontalGap="1.5%p"
+            />
+
+
+        <Key android:codes="114" />
+
+        <Key android:codes="115" />
+
+
+        <Key android:codes="62" />
+
+        <Key android:codes="63" />
+
+        <Key android:codes="64" />
+
+        <Key android:codes="65" />
+    </Row>
+
+    <!--333333333333333333333333333333333333333333333333333333333333333333-->
+    <Row>
+
+        <Key
+            android:codes="116"
+
+            android:keyEdgeFlags="left"  android:horizontalGap="1.5%p"
+            />
+
+
+        <Key android:codes="117" />
+
+        <Key android:codes="118" />
+
+        <Key android:codes="68" />
+
+        <Key android:codes="69" />
+
+        <Key android:codes="70"
+            />
+
+
+        <Key android:codes="78"
+            />
+
+
+
+        <Key android:codes="72"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="right"/>
+
+
+
+
+    </Row>
+    <!--444444444444444444444444444444444444444444444444444444444444444-->
+    <Row>
+
+        <Key
+            android:codes="77"
+            android:horizontalGap="1.5%p"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="119" />
+
+        <Key android:codes="75" />
+
+
+        <Key android:codes="42" />
+
+        <Key android:codes="76" />
+
+        <Key android:codes="41" />
+        <Key android:codes="71"/>
+
+        <Key android:codes="82"/>
+
+    </Row>
+    <!--55555555555555555555555555555555555555555-->
+    <!-- layout height change 3:vertical gap -->
+    <Row android:verticalGap="0.60%p">
+
+        <Key
+            android:codes="80"
+            android:keyWidth="12.6%p"
+            android:horizontalGap="1.5%p"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="81" />
+
+
+        <Key
+            android:codes="133"/>
+
+        <Key android:codes="134" />
+
+        <Key android:codes="91" />
+
+        <Key android:codes="55" />
+
+        <Key android:codes="92"
+
+            />
+
+        <Key android:codes="93"
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="right" />
+
+
+    </Row>
+    <!--66666666666666666666666666666666666666666666-->
+
+    <Row>
+
+        <Key android:codes="85"
+            android:horizontalGap="1.5%p"
+            />
+
+        <Key android:codes="86" />
+
+
+
+        <Key android:codes="105" />
+
+
+        <Key android:codes="106" />
+
+
+        <Key android:codes="99" />
+
+        <Key android:codes="100" />
+
+        <Key android:codes="125" />
+
+        <Key android:codes="126" />
+
+
+
+
+    </Row>
+    <!--7777777777777777777777-->
+    <Row>
+
+        <Key android:codes="73"
+            android:horizontalGap="1.5%p"
+            />
+
+
+        <Key android:codes="66" />
+
+        <Key android:codes="61" />
+
+        <Key android:codes="67" />
+
+
+        <Key
+            android:codes="74"/>
+        <Key android:codes="94" />
+
+        <Key android:codes="127" />
+
+
+        <Key
+            android:codes="79"/>
+    </Row>
+
+    <!--88888888888888888888888888-->
+
+    <!-- layout height change 4: shift keyheight -->
+    <Row>
+
+        <Key
+            android:codes="@string/symbols"
+            android:keyWidth="12.1%p"
+            android:keyEdgeFlags="left"
+            android:keyHeight="10.97%p"
+            android:horizontalGap="1.5%p"
+            android:keyIcon="@drawable/shift" />
+
+        <Key android:codes="87" />
+
+        <Key
+            android:codes="83" />
+
+        <Key android:codes="84" />
+
+        <Key android:codes="90" />
+
+        <Key android:codes="88" />
+
+
+        <Key android:codes="95" />
+
+        <Key
+            android:codes="132"
+
+            android:keyWidth="12.6%p"
+            android:keyEdgeFlags="right"/>
+
+
+    </Row>
+
+    <!--99999999999999999999999-->
+
+    <!-- layout height change 5:last row keyheight -->
+    <Row android:keyHeight="5.96%p"
+        >
+
+        <Key
+            android:codes="@string/english"
+            android:horizontalGap="14.1%p"
+            android:keyLabel="En"/>
+
+        <Key
+            android:codes="@string/space"
+            android:keyWidth="47%p" />
+        <Key
+            android:codes="@string/enter"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="30%p" />
+
+
+    </Row>
+
+
+
+</Keyboard>
+

@@ -1,0 +1,1717 @@
+<resources>
+    <!-- Character Set -->
+    <string name="character_set_start">"\u0C80"</string>
+    <string name="character_set_end">"\u0CF2"</string>
+
+    <!-- Consonant Set -->
+    <string name="consonant_set_start">"\u0C95"</string>
+    <string name="consonant_set_end">"\u0CB9"</string>
+
+    <!-- Range to omit in Consonant set -->
+    <string name="omit_1_start">\u093A</string>
+    <string name="omit_1_end">"\u0957"</string>
+
+    <string name="omit_2_start">"\u0960"</string>
+    <string name="omit_2_end">"\u097F"</string>
+
+    <!-- Conjunct Set -->
+    <string name="conjunct_1">र</string>
+    <string-array name="conjunct_1_array">
+        <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>
+        <item>र्</item>
+        <item>ऱ्</item>
+        <item>ल्</item>
+        <item>ळ्</item>
+        <item>ऴ्</item>
+        <item>व्</item>
+        <item>श्</item>
+        <item>ष्</item>
+        <item>स्</item>
+        <item>ह्</item>
+        <item>क्ष्</item>
+        <item>श्र्</item>
+        <item>ज्ञ्</item>
+        <item>त्र्</item>
+        <item>र्श्</item>
+        <item>र्त्</item>
+    </string-array>
+
+    <string name="conjunct_2">ञ</string>
+    <string-array name="conjunct_2_array">
+       <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>-->
+        <item>ज्</item>
+        <!--<item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+       <!-- <item>ऱ्</item>
+        <item>ल्</item>
+        <item>ळ्</item>
+        <item>ऴ्</item>
+        <item>व्</item>
+        <item>श्</item>
+        <item>ष्</item>
+        <item>स्</item>
+        <item>ह्</item>
+        <item>क्ष्</item>
+        <item>श्र्</item>
+        <item>ज्ञ्</item>
+        <item>त्र्</item>-->
+        <item>र्ज्</item>
+    </string-array>
+
+    <string name="conjunct_3">ष</string>
+    <string-array name="conjunct_3_array">
+        <item>क्</item>
+       <!-- <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+       <!-- <item>ऱ्</item>
+        <item>ल्</item>
+        <item>ळ्</item>
+        <item>ऴ्</item>
+        <item>व्</item>
+        <item>श्</item>
+        <item>ष्</item>
+        <item>स्</item>
+        <item>ह्</item>
+        <item>क्ष्</item>
+        <item>श्र्</item>
+        <item>ज्ञ्</item>
+        <item>त्र्</item>-->
+        <item>र्क्</item>
+    </string-array>
+
+    <string name="conjunct_4">क</string>
+    <string-array name="conjunct_4_array">
+        <!--<item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+       <!-- <item>ऱ्</item>
+        <item>ल्</item>
+        <item>ळ्</item>
+        <item>ऴ्</item>
+        <item>व्</item>
+        <item>श्</item>
+        <item>ष्</item>
+        <item>स्</item>
+        <item>ह्</item>
+        <item>क्ष्</item>
+        <item>श्र्</item>
+        <item>ज्ञ्</item>
+        <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_5">ख</string>
+    <string-array name="conjunct_5_array">
+       <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+       <!-- <item>ऱ्</item>
+        <item>ल्</item>
+        <item>ळ्</item>
+        <item>ऴ्</item>
+        <item>व्</item>
+        <item>श्</item>
+        <item>ष्</item>
+        <item>स्</item>
+        <item>ह्</item>
+        <item>क्ष्</item>
+        <item>श्र्</item>
+        <item>ज्ञ्</item>
+        <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_6">ग</string>
+    <string-array name="conjunct_6_array">
+       <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+       <!-- <item>ऱ्</item>
+        <item>ल्</item>
+        <item>ळ्</item>
+        <item>ऴ्</item>
+        <item>व्</item>
+        <item>श्</item>
+        <item>ष्</item>
+        <item>स्</item>
+        <item>ह्</item>
+        <item>क्ष्</item>
+        <item>श्र्</item>
+        <item>ज्ञ्</item>
+        <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_7">घ</string>
+    <string-array name="conjunct_7_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_8">ङ</string>
+    <string-array name="conjunct_8_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_9">च</string>
+    <string-array name="conjunct_9_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_10">छ</string>
+    <string-array name="conjunct_10_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_11">ज</string>
+    <string-array name="conjunct_11_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+
+    </string-array>
+    <string name="conjunct_12">झ</string>
+    <string-array name="conjunct_12_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <!--<string name="conjunct_13">ञ</string>-->
+    <!--<string-array name="conjunct_13_array">-->
+    <!--<item>र्</item>-->
+    <!--</string-array>-->
+    <string name="conjunct_13">ट</string>
+    <string-array name="conjunct_13_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+
+    </string-array>
+    <string name="conjunct_14">ठ</string>
+    <string-array name="conjunct_14_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_15">ड</string>
+    <string-array name="conjunct_15_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_16">ढ</string>
+    <string-array name="conjunct_16_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_17">ण</string>
+    <string-array name="conjunct_17_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_18">त</string>
+    <string-array name="conjunct_18_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_19">थ</string>
+    <string-array name="conjunct_19_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_20">द</string>
+    <string-array name="conjunct_20_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_21">ध</string>
+    <string-array name="conjunct_21_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_22">न</string>
+    <string-array name="conjunct_22_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_23">ऩ</string>
+    <string-array name="conjunct_23_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_24">प</string>
+    <string-array name="conjunct_24_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_25">फ</string>
+    <string-array name="conjunct_25_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_26">ब</string>
+    <string-array name="conjunct_26_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_27">भ</string>
+    <string-array name="conjunct_27_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_28">म</string>
+    <string-array name="conjunct_28_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_29">य</string>
+    <string-array name="conjunct_29_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+         <item>ऱ्</item>
+        <!-- <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+
+        <item>"\u0930\u094d\u200d"</item>
+    </string-array>
+
+    <string name="conjunct_30">ऱ</string>
+    <string-array name="conjunct_30_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_31">ल</string>
+    <string-array name="conjunct_31_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_32">ळ</string>
+    <string-array name="conjunct_32_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_33">ऴ</string>
+    <string-array name="conjunct_33_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_34">व</string>
+    <string-array name="conjunct_34_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_37">श</string>
+    <string-array name="conjunct_37_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <!--<string name="conjunct_38">ष</string>-->
+    <!--<string-array name="conjunct_38_array">-->
+    <!--<item>र्</item>-->
+    <!--</string-array>-->
+    <string name="conjunct_35">स</string>
+    <string-array name="conjunct_35_array">
+        <!-- <item>क्</item>
+        <item>ख्</item>
+        <item>ग्</item>
+        <item>घ्</item>
+        <item>ङ्</item>
+        <item>च्</item>
+        <item>छ्</item>
+        <item>ज्</item>
+        <item>झ्</item>
+        <item>ञ्</item>
+        <item>ट्</item>
+        <item>ठ्</item>
+        <item>ड्</item>
+        <item>ढ्</item>
+        <item>ण्</item>
+        <item>त्</item>
+        <item>थ्</item>
+        <item>द्</item>
+        <item>ध्</item>
+        <item>न्</item>
+        <item>ऩ्</item>
+        <item>प्</item>
+        <item>फ्</item>
+        <item>ब्</item>
+        <item>भ्</item>
+        <item>म्</item>
+        <item>य्</item>-->
+        <item>र्</item>
+        <!-- <item>ऱ्</item>
+         <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+    </string-array>
+    <string name="conjunct_36">ह</string>
+    <string-array name="conjunct_36_array">
+        <!-- <item>क्</item>
+       <item>ख्</item>
+       <item>ग्</item>
+       <item>घ्</item>
+       <item>ङ्</item>
+       <item>च्</item>
+       <item>छ्</item>
+       <item>ज्</item>
+       <item>झ्</item>
+       <item>ञ्</item>
+       <item>ट्</item>
+       <item>ठ्</item>
+       <item>ड्</item>
+       <item>ढ्</item>
+       <item>ण्</item>
+       <item>त्</item>
+       <item>थ्</item>
+       <item>द्</item>
+       <item>ध्</item>
+       <item>न्</item>
+       <item>ऩ्</item>
+       <item>प्</item>
+       <item>फ्</item>
+       <item>ब्</item>
+       <item>भ्</item>
+       <item>म्</item>
+       <item>य्</item>-->
+        <item>र्</item>
+         <item>ऱ्</item>
+        <!-- <item>ल्</item>
+         <item>ळ्</item>
+         <item>ऴ्</item>
+         <item>व्</item>
+         <item>श्</item>
+         <item>ष्</item>
+         <item>स्</item>
+         <item>ह्</item>
+         <item>क्ष्</item>
+         <item>श्र्</item>
+         <item>ज्ञ्</item>
+         <item>त्र्</item>-->
+
+        <item>"\u0930\u094d\u200d"</item>
+    </string-array>
+    <string-array name="in_chakra_vowel_modifiers">
+        <item>"\u093E"</item>
+        <item>"\u093F"</item>
+        <item>"\u0940"</item>
+        <item>"\u0941"</item>
+        <item>"\u0942"</item>
+        <item>"\u0947"</item>
+        <item>"\u0948"</item>
+        <item>"\u094B"</item>
+        <item>"\u094C"</item>
+        <item>"\u094D"</item>
+    </string-array>
+
+    <string-array name="in_chakra_whole_vowel">
+        <item>"\u0905"</item>
+        <item>"\u0906"</item>
+        <item>"\u0907"</item>
+        <item>"\u0908"</item>
+        <item>"\u0909"</item>
+        <item>"\u090A"</item>
+        <item>"\u090F"</item>
+        <item>"\u0910"</item>
+        <item>"\u0913"</item>
+        <item>"\u0914"</item>
+    </string-array>
+
+    <string name="vowel_modifier_1_start">"\u093A"</string>
+    <string name="vowel_modifier_1_end">"\u094F"</string>
+    <string name="vowel_modifier_2_start">"\u0951"</string>
+    <string name="vowel_modifier_2_end">"\u0957"</string>
+
+    <!-- Special Cases add chandrakala, aam, aha and numbers in hindi-->
+    <string name="special_1_start">"\u0900"</string>
+    <string name="special_1_end">"\u0914"</string>
+    <string name="special_2_start">"\u0950"</string>
+    <string name="special_2_end">"\u094E"</string>
+    <string name="special_3_start">"\u0957"</string>
+    <string name="special_3_end">"\u0977"</string>
+    <string name="special_4_start">"\u093A"</string>
+    <string name="special_4_end">"\u093D"</string>
+    <string name="special_5_start">"\u0943"</string>
+    <string name="special_5_end">"\u0946"</string>
+    <string name="special_6_start">"\u0949"</string>
+    <string name="special_6_end">"\u094A"</string>
+    <string name="special_7_start">"\u0949"</string>
+    <string name="special_7_end">"\u094A"</string>
+    <string name="special_8_start">"\u200c"</string>
+    <string name="special_8_end">"\u200d"</string>
+
+</resources>
