@@ -40,5 +40,21 @@
     <string name="kannada_settings_layout_small">ದೊಡ್ಡದು</string>
     <string name="kannada_do_you_like">ಸ್ವರ ಚಕ್ರ ಇಷ್ಟ ಆಯಿತಾ?</string>
     <string name="kannada_rate_us">ನಮ್ಮನ್ನು \"ಗೂಗಲ್ ಪ್ಲೇ ಸ್ಟೋರಲ್ಲಿ\"  \"ರೇಟ್\" ಮಾಡಿ ನಿಮ್ಮ ಅಭಿಪ್ರಾಯವನ್ನು ತಿಳಿಸಿ.</string>
+
+    <!-- hex -->
+    <string name="kannada_settings_layout_hex">ಅಂಕುಡೊಂಕಾದ</string>
+    <string name="kannada_fb_likeus">ಫೇಸ್ಬುಕ್ ನಲ್ಲಿ ನಮಗೆ ಲೈಕ್ ಕೊಡಿ</string>
+    <string name="kannada_tapaatap_download">टपाटप गेम डाउनलोड करा</string>
+
+    <string name="kannada_tryit">ಪ್ರಯತ್ನ ಪಡು</string>
+    <string name="kannada_height1">ದೊಡ್ಡದು</string>
+    <!-- <string name="height2">D</string>
+     <string name="height3">C</string>
+     <string name="height4">B</string>-->
+    <string name="kannada_height5">ಚಿಕ್ಕದು</string>
+    <string name="kannada_heightreco">ಸಲಹೆ</string>
+    <string name="kannada_preview_your_settings">ಮುನ್ನೋಟ</string>
+    <string name="kannada_title_activity_preview">ಮುನ್ನೋಟ</string>
+    <string name="kannada_back">ಹಿಂದೆ ಹೋಗು</string>
     
 </resources>
